@@ -191,6 +191,24 @@ Note that a Tapestation could also be used at this step.
 **CLEAN THE ELECTRODES AGAIN AFTER EVERY RUN**
 
 ## Stranded mRNA-Seq Library Prep
+
+### Annealing Custom Adapters That Inculde Restriction Enzyme Sites
+
+Annealing buffer stock (10X):
+
+| Component| Concentration|
+|----------|--------------|
+| Tris HCl, pH 8| 100 mM|
+| NaCl|500 mM|
+| EDTA| 10 mM|
+
+For a 50mL conical of 10X annealing buffer:  
+* 5mL of 5M NaCl
+* 500μl of 1M EDTA
+* 5mL of 1M Tris HCl, pH. 8
+* Fill rest of volume with nuclease free water
+
+
 ### Using KAPA Stranded mRNA-Seq Kit using 1/2 rxn volumes
 This should take 8-10 hours
 Refer to manual during procedure (steps below are for notes and comments)
