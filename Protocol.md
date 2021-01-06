@@ -477,22 +477,29 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 3. Thoroughly resuspend the beads in each sample by pipetting up and down multiple times
 4. Incubate the plate/tubes at room temperature for 15 min to allow the DNA to bind to the beads, having the tubes on an orbital shaker at ~200rpm is preferred
-5. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
-6. Carefully remove and discard 74 μl of supernatant.
-7. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-8. Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.
-* Dry the beads at room temperature, until all of the ethanol has evaporated.
+5. Place the plate/tubes on a magnet to capture the beads. Incubate until the liquid is clear
+6. Carefully remove and discard 74 μl of supernatant in each tube
+7. Keeping the plate/tubes on the magnet, add 200 μl of 80% ethanol
+8. Incubate the plate/tube at room temperature for ≥30 sec
+9. Carefully remove and discard the ethanol in each tube
+10. Keeping the plate/tubes on the magnet, add 200 μl of 80% ethanol
+11. Incubate the plate/tubes at room temperature for ≥30 sec
+12. Carefully remove and discard the ethanol in each tube. Try to remove all residual ethanol without disturbing the beads
+13. Dry the beads at room temperature, until all of the ethanol has evaporated.
   * **Caution: over-drying the beads may result in dramatic yield loss.**
-* Proceed immediately to **A-Tailing** immediately, or follow the Safe Stopping Point instructions below.
+14. Proceed immediately to **A-Tailing** immediately, or follow the Safe Stopping Point instructions below
 
 ---
 
 ### SAFE STOPPING POINT
-* Resuspend the beads in 15 μl 1X A-Tailing Buffer (see table above), cover the reaction and store at 4 oC for up to 24 hours. Do not freeze the samples as this will damage the AMPure® XP® beads. When ready, proceed to **A-Tailing after Safe Stopping Point**.
+* Resuspend the beads in 7.5 μl 1X A-Tailing Buffer:
+
+|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol)|
+|---------|--------------------|
+|Nuclease-free water|6.75 μl|
+|A-tailing buffer (10X)| 0.75 μl|
+
+* Cover the reaction and store at 4 degrees C for up to 24 hours. Do not freeze the samples as this will damage the beads. When ready, proceed to **A-Tailing after Safe Stopping Point**.
 
 ---
 
@@ -500,16 +507,17 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 * A-Tailing is performed either directly after the 2nd Strand Synthesis and Marking Cleanup, or after the Safe Stopping Point, where beads were resuspended in 1X A-Tailing Buffer and stored at 4 °C for up to 24 hours.
 
 #### A-Tailing immediately
-* Assemble the A-Tailing reaction as follows:
+1. On ice, make the A-Tailing Immediately **master mix**:
 
-|Component|Volume|
-|---------|------|
-|Beads with dscDNA| --|
-|A-Tailing Master Mix| 15 μl|
-|**Total Volume**| **15 μl**|
+|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
+|---------|--------------------|
+|Water|13.2 μl|
+|10X KAPA A-Tailing Buffer|1.65 μl|
+|KAPA A-Tailing Enzyme|1.65 μl|
 
-* Mix thoroughly by pipetting up and down several times.
-* Incubate the plate/tube using the following protocol:
+2. Resuspend the beads with cDNA with 15μl of the A-Tailing immediately master mix
+3. Mix thoroughly by pipetting up and down several times.
+4. Incubate the plate/tubes in the thermocyler using the following protocol:
 
 |Step|Temp.|Duration|
 |----|-----|--------|
@@ -517,10 +525,10 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 |Enzyme inactivation|60 °C|30 min|
 |HOLD|4 °C|∞|
 
-* Proceed immediately to **Adapter Ligation**.
+5. Proceed immediately to **Adapter Ligation**.
 
 #### A-Tailing after safe stopping point
-* To resume library preparation, combine the following reagents to perform A-Tailing:
+1. To resume library preparation after storing the samples overnight, make the A-Tailing after safe stopping point **master mix**:
 
 |Component|Volume|
 |---------|------|
