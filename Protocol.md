@@ -530,14 +530,22 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 #### A-Tailing after safe stopping point
 1. To resume library preparation after storing the samples overnight, make the A-Tailing after safe stopping point **master mix**:
 
+|Component|  Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
+|---------|--------------------|
+|Water|5.775 μl|
+|10X KAPA A-Tailing Buffer|0.825 μl|
+|KAPA A-Tailing Enzyme|1.65 μl|
+
+2. Combine the A-Tailing after safe stopping point master mix with the stored samples:
+
 |Component|Volume|
 |---------|------|
 |Beads with dscDNA (in 1X A-Tailing Buffer)| 7.5 μl |
 |A-Tailing Master Mix after Safe Stopping Point| 7.5 μl|
 |**Total Volume**| **15 μl**|
 
-* Mix thoroughly by pipetting up and down several times.
-* Incubate the plate/tube using the following protocol:
+3. Mix thoroughly by pipetting up and down several times.
+4/ Incubate the plate/tubes in the thermocycler using the following protocol:
 
 |Step|Temp.|Duration|
 |----|-----|--------|
@@ -545,11 +553,11 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 |Enzyme inactivation|60 °C|30 min|
 |HOLD|4 °C|∞|
 
-* Proceed immediately to **Adapter Ligation**.
+4. Proceed immediately to **Adapter Ligation**.
 
 ### Adapter Ligation
 
-#### Adapter concentration will vary depending on overall RNA yield, see table below:
+#### Adapter concentration will vary depending on overall RNA yield, see table below (also in the adapter annealing section):
 
 |Quantity of starting material|Adapter stock concentration|Adapter concentration in ligation reaction|
 |----|----|-----|
