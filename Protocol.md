@@ -409,20 +409,20 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 ### 1st Strand Synthesis
 
-1. Make the 1st Strand Synthesis master mix on ice:
+1. Make the 1st Strand Synthesis **master mix** on ice:
 
 |Component| Volume needed for 1 reaction (1/2 reactions from kit protocol) with 20% excess already calculated|
 |---------|--------------------|
 |1st Strand Synthesis Buffer|5.5 μl|
 |KAPA Script|0.5 μl|
 
-2. On ice, assemble the 1st Strand Synthesis reaction as follows:
+2. On ice, assemble each 1st Strand Synthesis **reaction** as follows:
 
 |Component|Volume per sample|
 |---------|------|
 |Fragmented, primed RNA eluted from beads| 10 μl|
 |1st Strand Synthesis Master Mix| 5 μl|
-|**Total Volume**| **15 μl**|
+|**Total volume per reaction**| **15 μl**|
 
 3. Keeping the plate/tubes on ice, mix thoroughly by gently pipetting the reaction up and down several times.
 4. Incubate the plate/tube in a thermocyler using the following protocol:
@@ -434,43 +434,53 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 |Enzyme inactivation|70 °C|15 min|
 |HOLD|4 °C|∞|
 
-* Place the plate/tube on ice and proceed immediately to **2nd Strand Synthesis and Marking**.
+5. Place the plate/tube on ice and proceed immediately to **2nd Strand Synthesis and Marking**.
 
 ### 2nd Strand Synthesis and Marking
-* Assemble the 2nd Strand Synthesis and Marking reaction as follows:
+
+1. Make the 2nd Strand Synthesis and Marking **master mix** on ice:
+
+|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol) with 10% excess already calculated|
+|---------|--------------------|
+|2nd Strand Marking Buffer|15.5 μl|
+|2nd Strand Synthesis Enzyme Mix|1 μl|
+
+2. On ice, assemble each 2nd Strand Synthesis and Marking **reaction** as follows:
 
 |Component|Volume|
 |---------|------|
 |1st Strand cDNA| 15 μl|
 |2nd Strand Synthesis and Marking Master Mix| 15 μl|
-|**Total Volume**| **30 μl**|
+|**Total volume per reaction**| **30 μl**|
 
-* Mix thoroughly by gently pipetting the reaction up and down several times.
-* Incubate the plate/tube using the following protocol:
+3. Mix thoroughly by gently pipetting each reaction up and down several times.
+4. Incubate the plate/tubes in the thermocyler using the following protocol:
 
 |Step|Temp.|Duration|
 |----|-----|--------|
 |2nd Strand synthesis and marking|16 °C|60 min|
 |HOLD|4 °C|∞|
 
-* Place the plate/tube on ice and proceed immediately to **2nd Strand Synthesis and Marking Cleanup**.
+5. Place the plate/tube on ice and proceed immediately to **2nd Strand Synthesis and Marking Cleanup**.
 
-### Cleanup
+### Cleanup After 2nd Strand Synthesis and Marking
 
-* Perform a 1.8X SPRI® cleanup by combining the following:
+1. Bring KAPA Pure Beads to room temperature by taking them out of the fridge ~30 minutes before you need them, and swirl the bottle to resuspend the beads completely
+
+2. Perform a 1.8X SPRI® (bead) cleanup by combining the following for each reaction:
 
 |Component|Volume|
 |---------|------|
-|2nd Strand Synthesis reaction product| 30 μl|
+|2nd Strand Synthesis reaction product (total volume)| 30 μl|
 |Agencourt® AMPure® XP reagent| 54 μl|
 |**Total Volume**| **84 μl**|
 
-* Thoroughly resuspend the beads by pipetting up and down multiple times.
-* Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.
-* Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
-* Carefully remove and discard 74 μl of supernatant.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
+3. Thoroughly resuspend the beads in each sample by pipetting up and down multiple times
+4. Incubate the plate/tubes at room temperature for 15 min to allow the DNA to bind to the beads, having the tubes on an orbital shaker at ~200rpm is preferred
+5. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
+6. Carefully remove and discard 74 μl of supernatant.
+7. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
+8. Incubate the plate/tube at room temperature for ≥30 sec.
 * Carefully remove and discard the ethanol.
 * Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
 * Incubate the plate/tube at room temperature for ≥30 sec.
