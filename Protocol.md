@@ -408,16 +408,24 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 6. Proceed immediately to **1st Strand Synthesis**.
 
 ### 1st Strand Synthesis
-* On ice, assemble the 1st Strand Synthesis reaction as follows:
 
-|Component|Volume|
+1. Make the 1st Strand Synthesis master mix on ice:
+
+|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol) with 20% excess already calculated|
+|---------|--------------------|
+|1st Strand Synthesis Buffer|5.5 μl|
+|KAPA Script|0.5 μl|
+
+2. On ice, assemble the 1st Strand Synthesis reaction as follows:
+
+|Component|Volume per sample|
 |---------|------|
 |Fragmented, primed RNA eluted from beads| 10 μl|
 |1st Strand Synthesis Master Mix| 5 μl|
 |**Total Volume**| **15 μl**|
 
-* Keeping the plate/tube on ice, mix thoroughly by gently pipetting the reaction up and down several times.
-* Incubate the plate/tube using the following protocol:
+3. Keeping the plate/tubes on ice, mix thoroughly by gently pipetting the reaction up and down several times.
+4. Incubate the plate/tube in a thermocyler using the following protocol:
 
 |Step|Temp.|Duration|
 |----|-----|--------|
