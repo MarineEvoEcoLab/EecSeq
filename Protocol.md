@@ -528,7 +528,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 5. Proceed immediately to **Adapter Ligation**.
 
 #### A-Tailing after safe stopping point
-1. To resume library preparation after storing the samples overnight, make the A-Tailing after safe stopping point **master mix**:
+1. To resume library preparation after storing the samples overnight, make the A-Tailing after safe stopping point **master mix** on ice:
 
 |Component|  Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
 |---------|--------------------|
@@ -570,7 +570,15 @@ For Puritz and Lotterhos 2017, we used 4000 ng starting RNA, but because of diff
 
 #### This will be where we insert the custom adapters that are barcoded with RE sites
 
-* Set up the adapter ligation reactions as follows:
+1. Make the adapter ligation **master mix** on ice:
+
+|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
+|---------|--------------------|
+|Water|8.8 μl|
+|5X KAPA Ligation Buffer| 7.7 μl|
+|KAPA T4 DNA Ligase|2.75 μl|
+
+2. On ice, set up the adapter ligation **reactions** as follows, _note, if you are using more than one adapter, make sure to add the correct one to each sample_:
 
 |Component|Volume|
 |---------|------|
@@ -580,9 +588,9 @@ For Puritz and Lotterhos 2017, we used 4000 ng starting RNA, but because of diff
 |**Total Volume**| **35 μl**|
 
 
-* Mix thoroughly by pipetting up and down several times to resuspend the beads.
-* Incubate the plate/tube at 20 °C for 30 min.
-* Proceed immediately to **1st Post-Ligation Cleanup**.
+3. Mix thoroughly by pipetting up and down several times to resuspend the beads
+4. Incubate the plate/tube at 20 °C for 30 min (room temperature), if the samples can be placed on an orbital shaker at 200rpm this is ideal
+5. Proceed immediately to **1st Post-Ligation Cleanup**
 
 ### Post-Ligation Cleanup
 
