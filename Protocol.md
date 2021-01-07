@@ -905,30 +905,29 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 
 ---
 
-* Perform a 1.5X SPRI cleanup by combining the following:
+#### 2nd 1.5X Bead Cleanup
 
-|Component|Volume|
-|---------|------|
-|MBN reaction| 22 μl|
-|Agencourt® AMPure® XP reagent|33 μl|
-|**Total Volume**| **55 μl**|
+1. Bring KAPA Pure Beads to room temperature by taking out of the 4 degree ~30 minutes before use and swirl to mix
+2. Perform a 1.5X bead cleanup by adding 31.5 μl of KAPA Pure Beads to each 21 μl of the 1st cleaned up MBN treated reaction the beads by pipetting up and down multiple times
+3. Incubate the plate/tube at room temperature for 15 min to allow the DNA to bind to the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
+4. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear
+5. Carefully remove and discard 115 μl of supernatant
+6. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol
+7. Incubate the plate/tube at room temperature for ≥30 sec
+8. Carefully remove and discard the ethanol
+9. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol
+10. Incubate the plate/tube at room temperature for ≥30 sec
+11. Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads
+12. Dry the beads at room temperature, until all of the ethanol has evaporated. **Caution: over-drying the beads may result in dramatic yield loss**
+13. Remove the plate/tube from the magnet
+14. Thoroughly resuspend the beads in 22 μl of 10 mM Tris-HCl (pH 8.0), _note: this volume can change depending on the number of captures, the quantity of probes will increase a lot during biotin labeling, but if you know you need a lot of probes, a larger volume can be used here for multiple biotin labelings_
+15. Incubate the plate/tube at room temperature for 5 min to allow the DNA to elute off the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
+16. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear
+17. Transfer 21 μl of the clear supernatant to a new plate/tube and proceed to next step
 
-* Thoroughly resuspend the beads by pipetting up and down multiple times.
-* Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.
-* Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
-* Carefully remove and discard 115 μl of supernatant.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.
-* Dry the beads at room temperature, until all of the ethanol has evaporated. **Caution: over-drying the beads may result in dramatic yield loss.**
-* Remove the plate/tube from the magnet.
-* Thoroughly resuspend the beads in 31 μl of 10 mM Tris-HCl (pH 8.0). Volume needed depends on the number of captures. Calculate 10 μl per capture plus an aliquot for checking the probes concentration using Qubit.
-* Incubate the plate/tube at room temperature for 2 min to allow the DNA to elute off the beads.
-* Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
-* Transfer 30 μl of the clear supernatant to a new plate/tube and proceed to next step.
+**Here, 1μl of cleaned MBN reaction should be run on a fragment analyzer such as a TapeStation. You should check for a loss in size compared to the final cDNA libraries (loss of adapters), and for no small peaks that are left-over adapters. See example:
+
+![](https://raw.githubusercontent.com/meschedl/MES_Puritz_Lab_Notebook/master/images/12-mbn-re-1.png)
 
 ---
 
