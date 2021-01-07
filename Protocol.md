@@ -682,15 +682,14 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 |Nuclease-free water|General lab supplier|
 
 #### Equipment
-* Thermocycler
+* Thermocycler (2!)
 * Magentic stand compatible with strip tubes
 
 #### Procedure
 
-* First pool individual RNA libraries in equal quantities to create a single pool of 500 ng.
-	* For example pool 125 ng each of four individual libraries.
+1. First pool individual RNA libraries in equal quantities to create a single pool, we have experiemented with 500 ng total or 200ng of each library, the final volume of this should not exceed 13.5 μl. If many probes are desired, multiple probe synthesis reactions can be done, and pooled at the end before hybridization
 
-* Create a 4X hybridization solution
+2. Create a 4X hybridization solution (this amount it excess of what is needed):
 
 |Component|Volume|
 |---------|------|
@@ -699,18 +698,18 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 |Nuclease‐free water| 400 𝜇L|
 |**Total Volume**|**1000 𝜇**L|
 
-* Use two thermocyclers and set one to hold at 68°C
-* Prepare the following reaction mix in a separate, sterile, nuclease‐free 200 μl PCR tube on ice for each sample to be normalized.
+3.  Use two thermocyclers and set one to hold at 68°C
+4. Prepare the following reaction mix in a separate, sterile, nuclease‐free 200 μl PCR tube on ice for each pool of cDNA to be normalized. If the pooled cDNA is less than 13.5 μl, increase the volume to 13.5 μl with nuclease free water:
 
 |Component|Volume|
 |---------|------|
-|Sample library (500 ng)| 13.5 𝜇l|
+|Sample library | 13.5 𝜇l|
 |4X Hybridization buffer| 4.5 𝜇l|
 |**Total Volume Per Sample**|**18 𝜇**L|
 
-* Gently pipette the entire volume up and down 10 times, then centrifuge briefly to mix.
-* Transfer the entire volume of reaction mix directly to the bottom of a new, sterile, nuclease‐free 200 μl PCR tube, using a pipette. Do not let the sample contact the side of the tube during the process.
-* Incubate the reaction mix tube on the thermal cycler using the following PCR cycling conditions:
+5. Gently pipette the entire volume up and down 10 times, then centrifuge briefly to mix
+6. Transfer the entire volume of reaction mix directly to the bottom of a new, sterile, nuclease‐free 200 μl PCR tube, using a pipette. Do not let the sample contact the side of the tube during the process
+7. Incubate the reaction mix tube on the thermal cycler using the following PCR cycling conditions:
 
 |Step|Temp|Duration|
 |----|----|--------|
@@ -718,21 +717,21 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 |Treatment|68 °C|5 hours|
 
 * **Caution**- Following incubation, keep the thermal cycler lid closed and the temperature held at 68°C. Do not remove the reaction mix tube from thermal cycler prior to and during DSN treatment.
-* Dilute the 10X DSN Master buffer supplied in the DSN kit to 2X with nuclease‐ free water
-* Pre‐heat the 2X DSN buffer on the pre‐heated heat block at 68°C.
-  * **Note:** Do not remove the 2X DSN buffer from the heat block during DSN treatment.
-* Quickly add 20 μl of pre‐heated 2X DSN buffer to the first reaction mix tube.
-* With the reaction mix tube remaining within the thermal cycler, gently pipette the entire volume up and down 10 times to mix thoroughly using a pipette set to 40 μl.
+8. Dilute the 10X DSN Master buffer supplied in the DSN kit to 2X with nuclease‐ free water by combining 16 μl nuclease free water and 4 μl 10X DSN master buffer for a total volume of 20 μl
+9. Pre‐heat the 2X DSN buffer on the pre‐heated heat block (or another thermocycler) at 68°C
+  * **Note:** Do not remove the 2X DSN buffer from the heat block during DSN treatment, pipette from the block or thermocycler
+10. Quickly add 20 μl of pre‐heated 2X DSN buffer to the first reaction mix tube
+13. With the reaction mix tube remaining within the thermal cycler, gently pipette the entire volume up and down 10 times to mix thoroughly using a pipette set to 40 μl.
   * **Note**:Pipette the solution directly to the bottom of the PCR tube and do not let the sample contact the side of the tube during the process.
   * **Note**: It is important to keep the thermal cycler closed, except for the time necessary to add the 2X DSN buffer and mix. When preparing more than one reaction mix tube, keep the thermal cycler lid closed when extracting the 2X DSN buffer from its tube, then open the thermal cycler lid only for the time necessary to add and mix the 2X DSN buffer.
-* Repeat steps 2 and 3 for each reaction mix tube.
-* Incubate the reaction mix tubes on the thermal cycler at 68°C for 10 minutes.
-* Quickly add 2 μl of DSN enzyme to the first reaction mix tube using a 2 μl pipette.
-* With the reaction mix tube remaining within the thermal cycler, gently pipette the entire volume up and down 10 times to mix thoroughly using a pipette set to 40 μl.
-  * **Note**:Pipette the solution directly to the bottom of the PCR tube and do not let the sample contact the side of the tube during the process.
-* Repeat steps 6 and 7 for each reaction mix tube.
-* Incubate the reaction mix tubes on the thermal cycler at 68°C for 25 minutes.
-* Add 40 μl of 2X DSN stop solution to each reaction mix tube. Gently pipette the entire volume up and down to mix thoroughly, then place the tubes on ice.
+14. Repeat steps 2 and 3 for each reaction mix tube
+15. Incubate the reaction mix tubes on the thermal cycler at 68°C for 10 minutes.
+16. Quickly add 2 μl of DSN enzyme to the first reaction mix tube using a 2 μl pipette
+17. With the reaction mix tube remaining within the thermal cycler, gently pipette the entire volume up and down 10 times to mix thoroughly using a pipette set to 40 μl
+  * **Note**:Pipette the solution directly to the bottom of the PCR tube and do not let the sample get stuck on the side of the tube during the process
+18. Repeat steps 6 and 7 for each reaction mix tube
+19. Incubate the reaction mix tubes on the thermal cycler at 68°C for 25 minutes
+20. Add 40 μl of 2X DSN stop solution to each reaction mix tube. Gently pipette the entire volume up and down to mix thoroughly, then place the tubes on ice
 
 ---
 
