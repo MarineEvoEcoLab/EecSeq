@@ -594,28 +594,22 @@ For Puritz and Lotterhos 2017, we used 4000 ng starting RNA, but because of diff
 
 ### Post-Ligation Cleanup
 
-* Perform a 1X SPRI® cleanup by combining the following:
-
-|Component|Volume|
-|---------|------|
-|Beads with adapter-ligated DNA| 35 μl|
-|Agencourt® AMPure® XP reagent| 35 μl|
-|**Total Volume**| **70 μl**|
-
-* Thoroughly resuspend the beads by pipetting up and down multiple times.
-* Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.
-* Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
-* Carefully remove and discard 65 μl of supernatant.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.
-* Dry the beads at room temperature, until all of the ethanol has evaporated. **Caution: over-drying the beads may result in dramatic yield loss.**
-* Remove the plate/tube from the magnet.
-* Thoroughly resuspend the beads in 25 μl of 10 mM Tris-HCl (pH 8.0).
-* Incubate the plate/tube at room temperature for 2 min to allow the DNA to elute off the beads
+1. Bring PEG/NaCl to room temperature by taking out of the 4 degree ~30 minutes before use
+2. Perform a 1X bead cleanup by adding 35 μl of PEG/NaCl to each ligated sample (that already contain beads)
+3. Thoroughly resuspend the beads by pipetting up and down multiple times
+4. Incubate the plate/tubes at room temperature for 15 min to allow the DNA to bind to the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
+5. Place the plate/tubes on a magnet to capture the beads. Incubate until the liquid is clear
+6. Carefully remove and discard 65 μl of supernatant
+7. Keeping the plate/tubes on the magnet, add 200 μl of freshly made 80% ethanol
+8. Incubate the plate/tube at room temperature for ≥30 sec
+9. Carefully remove and discard the ethanol
+10. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol
+11. Incubate the plate/tube at room temperature for ≥30 sec
+12. Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads
+13. Dry the beads at room temperature, until all of the ethanol has evaporated. **Caution: over-drying the beads may result in dramatic yield loss**
+14. Remove the plate/tubes from the magnet
+15. Thoroughly resuspend the beads in 25 μl of 10 mM Tris-HCl (pH 8.0)
+16. Incubate the plate/tubes at room temperature for 5 min to allow the DNA to elute off the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
 
 ---
 
@@ -626,30 +620,24 @@ The solution with resuspended beads can be stored at 4 °C for up to 24 hours. D
 
 ### 2nd Post-Ligation Cleanup
 
-* Perform a 1X SPRI® cleanup by combining the following:
-
-|Component|Volume|
-|---------|------|
-|Beads with puri ed, adapter-ligated DNA| 25 μl|
-|Agencourt® AMPure® XP reagent| 25 μl|
-|**Total Volume**| **50 μl**|
-
-* Thoroughly resuspend the beads by pipetting up and down multiple times.
-* Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.
-* Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
-* Carefully remove and discard 45 μl of supernatant.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.
-* Dry the beads at room temperature, until all of the ethanol has evaporated. **Caution: over-drying the beads may result in dramatic yield loss.**
-* Remove the plate/tube from the magnet.
-* Thoroughly resuspend the beads in 11.25 μl of 10 mM Tris-HCl (pH 8.0).
-* Incubate the plate/tube at room temperature for 2 min to allow the DNA to elute off the beads.
-* Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
-* Transfer 20 μl of the clear supernatant to a new plate/tube and proceed to *Library Amplication*.
+1. Bring PEG/NaCl to room temperature by taking out of the 4 degree ~30 minutes before use
+2. Perform a 1X bead cleanup by adding 25 μl of PEG/NaCl to each ligated sample (that already contain beads)
+3. Thoroughly resuspend the beads by pipetting up and down multiple times
+4. Incubate the plate/tube at room temperature for 15 min to allow the DNA to bind to the beads,  if the samples can be placed on an orbital shaker at 200rpm this is ideal
+5. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear
+6. Carefully remove and discard 45 μl of supernatant
+7. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol
+8. Incubate the plate/tube at room temperature for ≥30 sec
+9. Carefully remove and discard the ethanol
+10. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol
+11. Incubate the plate/tube at room temperature for ≥30 sec
+12. Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads
+13. Dry the beads at room temperature, until all of the ethanol has evaporated. **Caution: over-drying the beads may result in dramatic yield loss**
+14. Remove the plate/tube from the magnet
+15. Thoroughly resuspend the beads in 11.25 μl of 10 mM Tris-HCl (pH 8.0)
+16. Incubate the plate/tube at room temperature for 5 min to allow the DNA to elute off the beads,  if the samples can be placed on an orbital shaker at 200rpm this is ideal
+17. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
+18. Transfer 10 μl of the clear supernatant to a new plate/tube and proceed to *Library Amplication*
 ---
 
 ### SAFE STOPPING POINT
@@ -658,16 +646,17 @@ The purified, adapter-ligated library DNA may be stored at 4 °C for up to 1 wee
 ---
 ### Library Amplificiation
 
-* Assemble each library ampli cation reaction as follows:
+1. Make the library amplification **master mix** on ice, _note, if samples are being multiplexed and have different primers, do not make a master mix_:
 
-|Component|Volume|
-|---------|------|
-|Purified, adapter-ligated DNA| 10 μl|
-|Library Amplification Master Mix| 15 μl|
-|**Total Volume**| **25 μl**|
+|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
+|---------|--------------------|
+|2X KAPA HiFi HotStart ReadyMix|13.75 μl|
+|10X KAPA Library Amplication Primer Mix|2.75 μl|
 
-* Mix well by pipetting up and down several times
-* Amplify the library using the following thermal cycling protocol:
+2. If multiplexing samples, add 2X KAPA HiFi HotStart ReadyMix and 10uM primers individually in volumes as stated in above table into new PCR tubes for each sample, and add 10μl of the cleaned ligated cDNA samples
+3. If using a master mix, combine 15μl of the library amplification master mix and 10μl of the cleaned ligated cDNA samples
+5. Mix well by pipetting up and down several times
+6. Amplify the library using the following thermal cycling protocol:
 
 |Step|Temp|Duration|Cycles|
 |----|----|--------|------|
@@ -679,52 +668,46 @@ The purified, adapter-ligated library DNA may be stored at 4 °C for up to 1 wee
 |Hold|10 °C | ∞|1|
 
 
-* Place the plate/tube on ice and proceed to **Library Amplification Cleanup**
+7. Place the plate/tube on ice and proceed to **Library Amplification Cleanup**
 
 ### Library Amplification Cleanup
 
-* Perform a 1X SPRI® cleanup by combining the following
-
-|Component|Volume|
-|---------|------|
-|Amplified library DNA| 25 μl|
-|Agencourt® AMPure® XP reagent| 25 μl|
-|**Total Volume**| **50 μl**|
-
-* Mix thoroughly by pipetting up and down several times.
-* Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.
-* Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
-* Carefully remove and discard 45 μl of supernatant.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol.
-* Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
-* Incubate the plate/tube at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.
-* Dry the beads at room temperature, until all of the ethanol has evaporated. **Caution: over-drying the beads may result in dramatic yield loss.**
-* Remove the plate/tube from the magnet.
-* Thoroughly resuspend the dried beads in 22 μl of 10 mM Tris-HCl (pH 8.0).
-* Incubate the plate/tube at room temperature for 2 min to allow the DNA to elute off the beads.
-* Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
-Transfer 20 μl of the clear supernatant to a new plate/tube.
+1. Bring KAPA Pure Beads to room temperature by taking out of the 4 degree ~30 minutes before use
+2. Perform a 1X bead cleanup by adding 25 μl of KAPA Pure Beads to each sample after amplification
+3. Thoroughly resuspend the beads by pipetting up and down multiple times
+4. Incubate the plate/tube at room temperature for 15 min to allow the DNA to bind to the beads,  if the samples can be placed on an orbital shaker at 200rpm this is ideal
+5. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear
+6. Carefully remove and discard 45 μl of supernatant
+7. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol
+8. Incubate the plate/tube at room temperature for ≥30 sec
+9. Carefully remove and discard the ethanol
+10. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol
+11. Incubate the plate/tube at room temperature for ≥30 sec
+12. Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads
+13. Dry the beads at room temperature, until all of the ethanol has evaporated. **Caution: over-drying the beads may result in dramatic yield loss**
+14. Remove the plate/tube from the magnet
+15. Thoroughly resuspend the dried beads in 22 μl of 10 mM Tris-HCl (pH 8.0)
+16. Incubate the plate/tube at room temperature for 5 min to allow the DNA to elute off the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
+17. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear
+18. Transfer 20 μl of the clear supernatant to a new plate/tubes.
 
 ## Quant libraries
 **Procedure (Standard HS DNA protocol)**
-* Set up the required number of 0.5-mL tubes for standards and samples. The Qubit® RNA HS Assay requires 2 standards.
-* Label the tube lids.
-* Prepare the Qubit® working solution by diluting the Qubit® DNA HS Reagent 1:200 in Qubit® DNA HS Buffer. Use a clean plastic tube each time you prepare Qubit® working solution. **Do not mix the working solution in a glass container.**
-* Add 190 μL of Qubit® working solution to each of the tubes used for standards.
-* Add 10 μL of each Qubit® standard to the appropriate tube, then mix by vortexing 2–3 seconds. Be careful not to create bubbles.
-* Add Qubit® working solution to individual assay tubes so that the final volume in each tube after adding sample is 200 μL.
-* Add each sample to the assay tubes containing the correct volume of Qubit® working solution, then mix by vortexing 2–3 seconds. The final volume in each tube should be 200 μL.
-* Allow all tubes to incubate at room temperature for 2 minutes.
-* On the Home screen of the Qubit® 3.0 Fluorometer, press DNA, then select DNA: High Sensitivity as the assay type. The “Read standards” screen is displayed. Press Read Standards to proceed.
-* Insert the tube containing Standard #1 into the sample chamber, close the lid, then press Read standard. When the reading is complete (~3 seconds), remove Standard #1.
-* Insert the tube containing Standard #2 into the sample chamber, close the lid, then press Read standard. When the reading is complete, remove Standard #2.
-* Press Run samples.
-* On the assay screen, select the sample volume and units
-* Insert a sample tube into the sample chamber, close the lid, then press Read tube. When the reading is complete (~3 seconds), remove the sample tube.
-* Repeat step last step until all samples have been read
+1. Set up the required number of 0.5-mL tubes for standards and samples. The Qubit® DNA HS Assay requires 2 standards
+3. Label the tube lids
+4. Prepare the Qubit® working solution by diluting the Qubit® DNA HS Reagent 1:200 in Qubit® DNA HS Buffer. Use a clean plastic tube each time you prepare Qubit® working solution **Do not mix the working solution in a glass container.**
+5. Add 190 μL of Qubit® working solution to each of the tubes used for standards
+6. Add 10 μL of each Qubit® standard to the appropriate tube, then mix by vortexing 2–3 seconds. Be careful not to create bubbles
+7. Add Qubit® working solution to individual assay tubes so that the final volume in each tube after adding sample is 200 μL
+8. Add each sample to the assay tubes containing the correct volume of Qubit® working solution, then mix by vortexing 2–3 seconds. The final volume in each tube should be 200 μL
+9. Allow all tubes to incubate at room temperature for 2 minutes
+10. On the Home screen of the Qubit® 3.0 Fluorometer, press DNA, then select DNA: High Sensitivity as the assay type. The “Read standards” screen is displayed. Press Read Standards to proceed
+11. Insert the tube containing Standard #1 into the sample chamber, close the lid, then press Read standard. When the reading is complete (~3 seconds), remove Standard #1
+12. Insert the tube containing Standard #2 into the sample chamber, close the lid, then press Read standard. When the reading is complete, remove Standard #2
+13. Press Run samples
+14. On the assay screen, select the sample volume and units
+15. Insert a sample tube into the sample chamber, close the lid, then press Read tube. When the reading is complete (~3 seconds), remove the sample tube
+16. Repeat step last step until all samples have been read
 
 ---
 
