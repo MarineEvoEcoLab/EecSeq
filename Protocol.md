@@ -267,65 +267,7 @@ Steps in Library construction:
 * Library amplification to amplify library fragments carrying appropriate adapter sequences at both ends using high-fidelity, low-bias PCR; the strand marked with dUTP is not amplified.
 
 
-**Procedure:**
-* Prepare mastermixes for number of libraries (individual RNA extractions)
-  * See tables in manual and tables below for guidelines (We are using 1/2 reactions):
-
-|Component| Total Volume Needed for 4 RXNs (Includes 20% excess)|
-|---------|--------------------|
-|**1st Strand Synthesis Master Mix:**|--|
-|1st Strand Synthesis Buffer|22 μl|
-|KAPA Script|2 μl|
-|**Total Master Mix Volume**| **24 μl**|
-|**Final reaction composition:**|--|
-|1st Strand Synthesis Master Mix| 5 μl|
-|Fragmented, primed RNA|10 μl|
-|**Total Reaction Volume**| **15 μl**|
-
-|Component| Total Volume Needed for 4 RXNs (Includes 10% excess)|
-|---------|--------------------|
-|**2nd Strand Synthesis and Marking Master Mix:**|--|
-|2nd Strand Marking Buffer|62 μl|
-|2nd Strand Synthesis Enzyme Mix|4 μl|
-|**Total Master Mix Volume**| **66 μl**|
-|**Final reaction composition:**|--|
-|2nd Strand Synthesis and Marking Master Mix| 15 μl|
-|Fragmented, primed RNA|15 μl|
-|**Total Reaction Volume**| **30 μl**|
-
-|Component| Total Volume Needed for 4 RXNs (Includes 10% excess)|
-|---------|--------------------|
-|**A-Tailing Master Mix:**|--|
-|Water|52.8 μl|
-|10X KAPA A-Tailing Buffer|6.6 μl|
-|KAPA A-Tailing Enzyme|6.6 μl|
-|**Total Master Mix Volume**| **66 μl**|
-|**Resuspend beads in a volume of:**|** 15 μl** |
-
-|Component| Total Volume Needed for 4 RXNs (Includes 10% excess)|
-|---------|--------------------|
-|**Adapter Ligation Master Mix:**|--|
-|Water|35.2 μl|
-|5X KAPA Ligation Buffer| 30.8μl|
-|KAPA T4 DNA Ligase|11 μl|
-|**Total Master Mix Volume**| **77 μl**|
-|**Final reaction composition:**|--|
-|Beads with A-tailed DNA|15 μl|
-|Adapter Ligation Master Mix|17.5 μl|
-|Adapter (350 nM – 1400 nM, as appropriate)|2.5 μl|
-|**Total Reaction Volume**| **35 μl**|
-
-|Component| Total Volume Needed for 4 RXNs (Includes 10% excess)|
-|---------|--------------------|
-|**Library Amplification Master Mix:**|--|
-|2X KAPA HiFi HotStart ReadyMix|55 μl|
-|10X KAPA Library Amplication Primer Mix|11 μl|
-|**Total Master Mix Volume**| **66 μl**|
-|**Final reaction composition:**|--|
-|Adapter-ligated library DNA|10 μl|
-|Library Amplification Master Mix|15 μl|
-|Balance of water (if required)|5 μl|
-|**Total Reaction Volume**| **30 μl**|
+## Procedure
 
 ### mRNA Capture
 
