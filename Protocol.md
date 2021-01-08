@@ -946,31 +946,31 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 
 ### Procedure
 
-* Add the following components into 1.5 ml microcentrifuge tube:
+1. Make a master mix for the decanucleotide reaction pertaining to how many reactions, if you are just doing 1 use 10 μl of Decanucleotide in 5X Reaction Buffer and 14 μl of nuclease-free water
 
-|Component|Volume|
+|Component|Volume for 1 reaction (includes 10% excess)|
 |---------|------|
-|RE and MBN treated DSN Library| 20 μl|
-|Decanucleotide in 5X Reaction Buffer| 10 μl|
-| Water, nuclease-free| 14 μl|
-|**Total Volume**| **44 μl**|
+|Decanucleotide in 5X Reaction Buffer| 11 μl|
+| Water, nuclease-free| 15.4 μl|
 
-* Vortex the tube and spin down in a microcentrifuge for 3-5 s
-* Incubate the tube in a boiling water bath for 5-10 min and cool it on ice. Spin down quickly.
-* Add the following components in the same tube:
+2. Aliquot 24 μl of master mix into new .2mL tubes
+3. Add 20 μl of the RE and MBN treated DSN Library to each reaction tube
+4. Vortex the tubes and spin down in a microcentrifuge for 3-5 s
+5. Incubate the tube in the theremocycler at 98°C for 10 minutes, bring down to a 4°C hold and once finished put it on ice. Spin down quickly and keep on ice
+6. Make a master mix on ice for biotin labeling, if oing only 1 reaction use 5 μl Biotin Labeling Mix and 1 μl Klenow fragment, exo– (5 ul)
 
-|Component|Volume|
+|Component|Volume for 1 reaction (with 10% excess)|
 |---------|------|
-|Biotin Labeling Mix| 5 μl|
-|Klenow fragment, exo– (5 u)| 1 μl|
-|**Total Volume**| **50 μl**|
+|Biotin Labeling Mix| 5.5 μl|
+|Klenow fragment, exo– (5 u)| 1.1 μl|
 
-* Shake the tube and spin down in a microcentrifuge for 3-5 s.
-* Incubate for 12-20 hours at 37°C.
+7. Add 6 μl of the biotin labeling master mix to each reaction tube on ice
+8. Shake the tube and spin down in a microcentrifuge for 3-5 s
+9. Incubate for 12-20 hours at 37°C (this can be a thermocycler program)
 
 ---
-#### Optional:Control reaction
-* Add the following components into 1.5 ml microcentrifuge tube:
+#### Optional: Control reaction
+* Add the following components into 0.2ml microcentrifuge tube:
 
 |Component|Volume|
 |---------|------|
@@ -980,7 +980,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 |**Total Volume**| **44 μl**|
 
 * Vortex the tube and spin down in a microcentrifuge for 3-5 s
-* Incubate the tube in a boiling water bath for 5-10 min and cool it on ice. Spin down quickly.
+* Incubate the tube in the theremocycler at 98°C for 10 minutes, bring down to a 4°C hold and once finished put it on ice. Spin down quickly and keep on ice
 * Add the following components in the same tube:
 
 |Component|Volume|
@@ -989,16 +989,14 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 |Klenow fragment, exo– (5 u)| 1 μl|
 |**Total Volume**| **50 μl**|
 
+* Perform following cleanup and QC on this tube as well
 ---
 
-* Perform a 1.5X SPRI® cleanup by combining the following:
 
-|Component|Volume|
-|---------|------|
-|Biotin reaction| 50 μl|
-|Agencourt® AMPure® XP reagent| 75 μl|
-|**Total Volume**| **125 μl**|
+## 1.5X Cleanup of Biotin Labeled Probes
 
+1. Bring KAPA Pure Beads to room temperature by taking out of the 4 degree ~30 minutes before use and swirl to mix
+2. Perform a 1.5X bead cleanup by adding 75 μl of KAPA Pure Beads to each 50 μl of the biotin reactions
 * Thoroughly resuspend the beads by pipetting up and down multiple times.
 * Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.
 * Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
