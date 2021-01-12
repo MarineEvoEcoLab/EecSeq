@@ -1407,6 +1407,7 @@ It takes some planning to time this nicely. Immediately after the 48 hour incuba
 | BO.4 blocking oligo (200 μM)           | 0.44 μl        |
 
 _Be careful and make sure to add each component in these steps!_
+
 2. Pool gDNA libraries as planned into capture pools in 0.2mL PCR strip tubes
 3. Add 500ng (or other amount as planned) of probes to each capture pool
 4. If the volume of pooled gDNA libraries and probes in each tube is less than 23.5 μl, increase the volume to 23.5 μl with nuclease-free water
