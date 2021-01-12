@@ -1325,7 +1325,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 * Plan your capture pools before starting hybridization. In fact, planning capture pools should be done when planning multiplexing. The main thing to do when planning how many captures to do is to evenly spread sample "attributes" between captures, ie if you have samples from 4 populations, each capture should have roughly the same number of samples from each population. This minimizes any batch effect based on capture efficiency.
 * There is also the question of how much gDNA library per sample to use, and how many gDNA libraries to have in each capture reaction. The Puritz Lab has had successes with capture pools that included: 5, 6, and 10 samples in each. The lab has also had success with 500ng as the total amount for the capture pooled gDNA, and with 200ng of each gDNA library.
 * How many gDNA libraries you have will be the largest factor in determining this. The washes after hybridization are intensive, so decreasing the number of tubes to handle is something to consider. For example, for a project with 50 samples, 5 capture pools that had 10 samples each were used. For a project with 18 samples, 3 capture pools that had 6 samples each were used.
-* Probes are used in excess. We recommend using 500 ng of probes, but have also successfully captured with as little as 100 ng of probes and 100 ng of library. We have also had success with 500ng of probes with 600ng of pooled gDNA libraries, and 500ng of probes with 1ug of pooled gDNA libraries.
+* Probes are used in excess. We recommend using 500 ng of probes, but have also successfully captured with as little as 100 ng of probes and 100 ng of library. We have also had success with 500ng of probes with 600ng of pooled gDNA libraries, and 500ng of probes with 1ug of pooled gDNA libraries. **Yield will scale directly with input**
 * **It is important to note that the total volume of all the gDNA libraries for 1 capture plus the volume of probes needs to be less than or equal to 23.5ul.**
 
 
@@ -1340,7 +1340,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 |Cot-1 DNA (1 mg/ml)                     |ThermoFischer     | 15279011|                   
 |KAPA Pure Beads                     |Roche Sequencing   | KK8001|
 
-## Blocking Oligos
+#### Blocking Oligos
 
 Note that if using custom DNA adapters, it is critical to ensure that the blocking oligos match the adapter sequences.
 
@@ -1352,7 +1352,7 @@ Note that if using custom DNA adapters, it is critical to ensure that the blocki
 | BO4.i7.R  | AGATCGGAAGAGCACACGTCTGAACTCCAGTCACIIIIIIATCTCGTATGCCGTCTTCTGCTTG |
 
 
-Solutions needed:
+#### Solutions needed:
 
 * 10 mM Tris-HCl pH 8.5 or PCR-grade water
 * EDTA 500 mM
@@ -1362,33 +1362,50 @@ Solutions needed:
 * 0.5x SSC / 0.1% SDS
 * 0.1x SSC / 0.1% SDS
 
-Examples on how to make solutions, the [Solution Dilution Calculator](https://www.sigmaaldrich.com/chemistry/stockroom-reagents/learning-center/technical-library/solution-dilution-calculator.html) is very helpful:
+Examples on how to make solutions, the [Solution Dilution Calculator](https://www.sigmaaldrich.com/chemistry/stockroom-reagents/learning-center/technical-library/solution-dilution-calculator.html) is very helpful. **NOTE: calculate the volume you need for each of these solutions based on the number of captures you have**:
+* TEN solution (3mL):
+	- 6 μl 500mM EDTA
+	- 600 μl 5M NaCl
+	- 2340 μl 10mM Tris HCl pH. 7.5
+* 1x SSC / 0.1% SDS (2mL)
+	- 100 μl 20X SSC
+	- 20 μl 10% SDS
+	- 1880 μl nuclease-free water
+* 0.5x SSC / 0.1% SDS (2mL)
+	- 50 μl 20X SSC
+	- 20 μl 10% SDS
+	- 1930 μl nuclease-free water
+* 0.1x SSC / 0.1% SDS
+	- 10 μl 20X SSC
+	- 20 μl 10% SDS
+	- 1970 μl nuclease-free water
 
-Protocol based on previously described methods [hyRAD](https://github.com/chiasto/hyRAD/blob/master/wetlab.md#4-hybridization-capture-and-library-re-amplification) and [general capture](http://openwetware.org/wiki/Hyb_Seq_Prep)
+**Protocol based on previously described methods [hyRAD](https://github.com/chiasto/hyRAD/blob/master/wetlab.md#4-hybridization-capture-and-library-re-amplification) and [general capture](http://openwetware.org/wiki/Hyb_Seq_Prep)**
 
-Remember to perform one capture per pool of the libraries amplified with the same Illumina indexed primer.
 
 ## Hybridization
 
-* Prepare the hybridization mix. Probes and blocking oligos are used in excess. We recommend using 500 ng of probes with 500 ng of gDNA library, but have also successfully captured with as little as 100 ng of probes and 100 ng of library.  **Yield will scale directly with input**
+* Make the Hybridization master mix on ice, multiply volumes by number of captures:
 
-| Component                                | Volume  |
+| Component                                | Volume  for 1 capture (inculdes 10% excess)|
 | -------------------------------------- | ----------- |
-| Molecular Grade Water                  | 3.5 μl        |
-| SSC (20x)                              | 12.0  μl      |
-| EDTA (500 mM)                          | 0.4 μl        |
-| SDS (10%)                              | 0.4 μl        |
-| Denhardt’s solution (50x)              | 1.6 μl        |
-| Cot-1 DNA (1 mg/ml)                    | 0.5 μl        |
-| BO.1 blocking oligo (200 μM)           | 0.4 μl        |
-| BO.2 blocking oligo (200 μM)           | 0.4 μl        |
-| BO.3 blocking oligo (200 μM)           | 0.4 μl        |
-| BO.4 blocking oligo (200 μM)           | 0.4 μl        |
-| prepared Illumina library (500 ng)| 10.0 μl        |
-| probes (500 ng)               | 10.0 μl         |
+| SSC (20x)                              | 13.2  μl      |
+| EDTA (500 mM)                          | 0.44 μl        |
+| SDS (10%)                              | 0.44 μl        |
+| Denhardt’s solution (50x)              | 1.76 μl        |
+| Cot-1 DNA (1 mg/ml)                    | 0.65 μl        |
+| BO.1 blocking oligo (200 μM)           | 0.44 μl        |
+| BO.2 blocking oligo (200 μM)           | 0.44 μl        |
+| BO.3 blocking oligo (200 μM)           | 0.44 μl        |
+| BO.4 blocking oligo (200 μM)           | 0.44 μl        |
 
-
-* Incubate at 95°C for 10 minutes, then at 65°C for 48 hours. Mix from time to time. This can be done in a standard thermocycler, but is probably best performed in an hybridization oven with a rotor.
+_Be careful and make sure to add each component in these steps!_
+* Pool gDNA libraries as planned into capture pools in 0.2mL PCR strip tubes
+* Add 500ng (or other amount as planned) of probes to each capture pool
+* If the volume of pooled gDNA libraries and probes in each tube is less than 23.5 μl, increase the volume to 23.5 μl with nuclease-free water
+* Add 16.5 μl of the hybridization master mix to each capture pool
+* Pipette to mix, the total volume should be 40 μl
+* Incubate at 95°C for 10 minutes, then at 65°C for 48 hours. Mix from time to time, about every 12 hours is ok. This can be done in a standard thermocycler, but is probably best performed in an hybridization oven with a rocking rotor for the 48 hours incubation
 
 ### Preparation of Dynabeads
 
