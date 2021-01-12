@@ -214,10 +214,10 @@ For a 50mL conical of 10X annealing buffer:
 
 |Oligo Name| Sequence|Inline Barcode|
 |----------|---------|--------------|
-|Y-inline-SaIIa|CACTCTTTCCCTACACGACGCTCTTCCGATCTNNNNNNGTCGACT*T|
-|Y-inline-SaIIa_NO_N|CACTCTTTCCCTACACGACGCTCTTCCGATCTGTCGAC*T|
-|Y-inline-SaIIb|PA*GTCGACNNNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTC|
-|Y-inline-SaIIb_NO_N|PG*TCGACAGATCGGAAGAGCACACGTCTGAACTCCAGTC|
+|Y-inline-SaIIa|CACTCTTTCCCTACACGACGCTCTTCCGATCTNNNNNNGTCGACT*T|NNNNNNGTCGACTT|
+|Y-inline-SaIIa_NO_N|CACTCTTTCCCTACACGACGCTCTTCCGATCTGTCGAC*T|GTCGACT|
+|Y-inline-SaIIb|PA*GTCGACNNNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTC|NNNNNNGTCGACTT|
+|Y-inline-SaIIb_NO_N|PG*TCGACAGATCGGAAGAGCACACGTCTGAACTCCAGTC|GTCGACT|
 
 
 ### Anneal RNA Adapters
@@ -761,6 +761,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 ### PCR Enrichment of DSN Normalized Library
 
 1. Create the reaction mix by combining these components on ice _note, if more than 1 DSN normalization took place, you can do multiple enrichments, or you could have combined them before in the cleanup step above and adjusted the cleanup volume_:
+
 |Component|Volume|
 |---------|------|
 |DSN Treated Library | 30 μl|
