@@ -1138,27 +1138,23 @@ Alternatively, any TruSeq style DNA adapters could be used with this protocol as
 
 Refer to [manual](https://rochesequencingstore.com/wp-content/uploads/2017/10/KAPA-HyperPrep-Kit_KR0961-%E2%80%93-v7.19.pdf) during procedure (steps below are for notes and comments).
 
-#### For Puritz and Lotterhos 2017, genomic DNA was sheared to a modal peak of 150 bp using a Covaris sonicator. For other preps in the Puritz Lab, we have used a QSonica sonicator for a modal peak at 150bp. The protocol below assumes you are starting with sheared DNA
+#### For Puritz and Lotterhos 2017, genomic DNA was sheared to a modal peak of 150 bp using a Covaris sonicator. For other preps in the Puritz Lab, we have used a QSonica sonicator for a modal peak at 150bp. The protocol below assumes you are starting with sheared DNA. We have had success with 500ng of DNA as a starting amount, however the kit reports effective library prep with 1ng-1ug.
 
 
-### Procedure
+## Procedure
 
 ### End repair
-* Adjust sample volume of 500 ng fragmented DNA to 22.5 μl.
-* Add the following to each sample:
+1. Adjust sample volume of 500 ng fragmented DNA to 25 μl with 10mM Tris HCl in PCR strip tubes or a plate
+2. Create the End Repair and A-Tailing master mix on ice:
 
-|Component|Volume|
+|Component|Volume for 1 reaction (includes 10% excess)|
 |---------|------|
-|KAPA Frag Buffer (10X) | 2.5|
-|End Repair & A-Tailing Buffer* | 3.5 μl|
-|End Repair & A-Tailing Enzyme Mix* | 1.5 μl|
-|Fragmented, double-stranded DNA| 25 μl |
-|**Total Volume**| **30 μl**|
+|End Repair & A-Tailing Buffer | 3.85 μl|
+|End Repair & A-Tailing Enzyme Mix | 1.65 μl|
 
-  * The buffer and enzyme mix should preferably be pre-mixed and added in a single pipetting step.
-    * Premixes are stable for ≤24 hrs at room temperature, for ≤3 days at 4°C, and for ≤4 weeks at -20°C
-  * Vortex gently and spin down briefly. Return the reaction plate/tube(s) to ice. Proceed immediately to the next step.
-  * Incubate in a thermocycler programmed as outlined below. A heated lid is required for this step. If possible, set the temperature of the heated lid to ~85°C (instead of the usual 105°C).
+3. Add 5 μl of the master mix to each of the tubes with your DNA
+4. Vortex gently and spin down briefly. Return the reaction plate/tube(s) to ice
+5. Incubate in a thermocycler programmed as outlined below. A heated lid is required for this step. If possible, set the temperature of the heated lid to ~85°C (instead of the usual 105°C)
 
 |Step|Temp|Time|
 |----|----|--------|
@@ -1166,12 +1162,11 @@ Refer to [manual](https://rochesequencingstore.com/wp-content/uploads/2017/10/KA
 |End repair and A-tailing 2|65 °C|30 min|
 |Hold|10 °C | ∞|
 
-* Notes
-  * A heated lid is required for this incubation. If possible, set the temperature of the lid at 85°C, instead of the usual ~105°C.
-  * If proceeding to the adapter ligation reaction setup without any delay, the reaction may be cooled to 20°C instead of 4°C.
+ _Note: If proceeding to the adapter ligation reaction setup without any delay, the reaction may be cooled to 20°C instead of 10°C_
 
 ### Adapter ligation
-* Dilute adapter stocks to the appropriate concentration, as outlined below:
+
+1. Dilute adapter stocks to the appropriate concentration, as outlined below:
 
 |Fragmented DNA| Adapter stock concentration | Adapter:insert molar ratio|
 |--------------|-----------------------------|---------------------------|
@@ -1188,88 +1183,73 @@ Refer to [manual](https://rochesequencingstore.com/wp-content/uploads/2017/10/KA
 
 **For Puritz and Lotterhos (2017), a working stock of 40 μM was used, leading to a final adapter:insert molar ratio of ~ 50:1.**
 
-* In the same plate/tube(s) in which end repair and A-tailing was performed, assemble each adapter ligation reaction as follows:
+2. Make the Adapter Ligation master mix on ice:
 
-|Component|Volume|
+|Component|Volume for 1 reaction (includes 10% excess)|
 |---------|------|
-|End repair and A-tailing reaction product| 30 μl|
-|P1 Adapter stock (concentration as required) **Barcode containing oligo** | 1.25 μl|
-|P2 Adapter stock (concentration as required) | 1.25 μl|
-|PCR-grade water*| 2.5 μl |
-|Ligation Buffer*| 15 μl |
-|DNA ligase*| 5 μl |
-|**Total Volume**| **55 μl**|
+|PCR-grade water| 2.75 μl |
+|Ligation Buffer| 16.5 μl |
+|DNA ligase| 5.5 μl |
 
-* Notes
-  * **Each P1 adapter has a unique barcode** these barcodes can be combined with Illumina indices (added later via PCR) for high levels of multiplexing.
-  * The water, buffer and ligase enzyme should preferably be premixed and added in a single pipetting step. Premixes are stable for ≤24 hrs at room temperature, for ≤3 days at 4°C, and for ≤4 weeks at -20°C.
-
-* Mix thoroughly and centrifuge briefly.
-* Incubate at 20°C for 60 min.
-  * Note: to achieve higher conversion rates and library yields, particularly for low-input samples, consider increasing the ligation time—to a maximum of 4 hrs at 20°C, or overnight at 4°C. Please note that longer ligation times may lead to increased levels of adapter-dimer. Adapter concentrations may have to be optimized if ligation times are extended signi cantly.
-* Proceed immediately to the next step.
+3. Add 22.5 μl of the master mix to each tube with the A-tailed reaction on ice
+4. Add 2.5 μl of specific adapters to each sample. You will likely be adding a different adapter to each/most sample(s). Make sure this is planned ahead of time to multiplex with the PCR primers. Having a list of which adapters to add to which sample and checking them off after each time you pipette minimizes error/allows you to recognize error
+5. Vortex and centrifuge briefly
+6. Incubate at 20°C (room temp) for 60 min, preferrably on an orbital shaker at 200 rpm
+  * Note: to achieve higher conversion rates and library yields, particularly for low-input samples, consider increasing the ligation time—to a maximum of 4 hrs at 20°C, or overnight at 4°C. Please note that longer ligation times may lead to increased levels of adapter-dimer. Adapter concentrations may have to be optimized if ligation times are extended significantly
+7. Proceed immediately to the next step
 
 ### Post-ligation Cleanup
-* In the same plate/tube(s), perform a 0.8X bead- based cleanup by combining the following:
-
-|Component|Volume|
-|---------|------|
-|Adapter ligation reaction product| 55 μl|
-|KAPA Pure Beads | 44 μl|
-|**Total Volume**| **99 μl**|
-
-* Mix thoroughly by vortexing and/or pipetting up and down multiple times.
-* Incubate the plate/tube(s) at room temperature for 5 – 15 min to bind DNA to the beads.
-* Place the plate/tube(s) on a magnet to capture the beads. Incubate until the liquid is clear.
-* Carefully remove and discard the supernatant.
-* Keeping the plate/tube(s) on the magnet, add 200 μL of 80% ethanol.
-* Incubate the plate/tube(s) on the magnet at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol.
-* Keeping the plate/tube(s) on the magnet, add 200 μL of 80% ethanol.
-* Incubate the plate/tube(s) on the magnet at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.
-* Dry the beads at room temperature for 3 – 5 min, or until all of the ethanol has evaporated. *Caution: over-drying the beads may result in reduced yield.*
-* Remove the plate/tube(s) from the magnet.
-* Thoroughly resuspend the beads in in 12.5 μL of elution buffer (10 mM Tris-HCl, pH 8.0 – 8.5)
-* Incubate the plate/tube(s) at room temperature for 2 min to elute DNA off the beads.
-* Place the plate/tube(s) on a magnet to capture the beads. Incubate until the liquid is clear.
-* Transfer 11 μL of supernatant to a new plate/tube(s):
+1. Bring KAPA Pure Beads to room temperature by taking out of the 4 degree ~30 minutes before use and swirl to mix
+2. Perform a 0.8X cleanup by adding 44 μl of KAPA Pure beads to each sample tube after the ligation step and pipetting ~10 times until homogenous
+3. Incubate the plate/tube(s) at room temperature for 15 min to bind DNA to the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
+4. Place the plate/tube(s) on a magnet to capture the beads. Incubate until the liquid is clear
+5. Carefully remove and discard the supernatant
+6. Keeping the plate/tube(s) on the magnet, add 200 μL of 80% ethanol
+7. Incubate the plate/tube(s) on the magnet at room temperature for ≥30 sec
+8. Carefully remove and discard the ethanol
+9. Keeping the plate/tube(s) on the magnet, add 200 μL of 80% ethanol
+10. Incubate the plate/tube(s) on the magnet at room temperature for ≥30 sec
+11. Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads
+12. Dry the beads at room temperature for 3 – 5 min, or until all of the ethanol has evaporated. *Caution: over-drying the beads may result in reduced yield.*
+13. Remove the plate/tube(s) from the magnet
+14. Thoroughly resuspend the beads in in 12.5 μL of 10 mM Tris-HCl, pH 8.0
+15. Incubate the plate/tube(s) at room temperature for 5 min to elute DNA off the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
+16. Place the plate/tube(s) on a magnet to capture the beads. Incubate until the liquid is clear
+17. Transfer 11 μL of supernatant to a new plate/tube(s)
 
 ### Quant samples
 **Procedure (Standard HS DNA protocol)**
-* Set up the required number of 0.5-mL tubes for standards and samples. The Qubit® RNA HS Assay requires 2 standards.
-* Label the tube lids.
-* Prepare the Qubit® working solution by diluting the Qubit® DNA HS Reagent 1:200 in Qubit® DNA HS Buffer. Use a clean plastic tube each time you prepare Qubit® working solution. **Do not mix the working solution in a glass container.**
-* Add 190 μL of Qubit® working solution to each of the tubes used for standards.
-* Add 10 μL of each Qubit® standard to the appropriate tube, then mix by vortexing 2–3 seconds. Be careful not to create bubbles.
-* Add Qubit® working solution to individual assay tubes so that the final volume in each tube after adding sample is 200 μL.
-* Add each sample to the assay tubes containing the correct volume of Qubit® working solution, then mix by vortexing 2–3 seconds. The final volume in each tube should be 200 μL.
-* Allow all tubes to incubate at room temperature for 2 minutes.
-* On the Home screen of the Qubit® 3.0 Fluorometer, press DNA, then select DNA: High Sensitivity as the assay type. The “Read standards” screen is displayed. Press Read Standards to proceed.
-* Insert the tube containing Standard #1 into the sample chamber, close the lid, then press Read standard. When the reading is complete (~3 seconds), remove Standard #1.
-* Insert the tube containing Standard #2 into the sample chamber, close the lid, then press Read standard. When the reading is complete, remove Standard #2.
-* Press Run samples.
-* On the assay screen, select the sample volume and units
-* Insert a sample tube into the sample chamber, close the lid, then press Read tube. When the reading is complete (~3 seconds), remove the sample tube.
-* Repeat step last step until all samples have been read
+1. Set up the required number of 0.5-mL tubes for standards and samples. The Qubit® RNA HS Assay requires 2 standards
+2. Label the tube lids
+3. Prepare the Qubit® working solution by diluting the Qubit® DNA HS Reagent 1:200 in Qubit® DNA HS Buffer. Use a clean plastic tube each time you prepare Qubit® working solution. **Do not mix the working solution in a glass container**
+4. Add 190 μL of Qubit® working solution to each of the tubes used for standards
+5. Add 10 μL of each Qubit® standard to the appropriate tube, then mix by vortexing 2–3 seconds. Be careful not to create bubbles
+6. Add Qubit® working solution to individual assay tubes so that the final volume in each tube after adding sample is 200 μL (we use 199μL solution to 1 μL sample)
+7. Add each sample to the assay tubes containing the correct volume of Qubit® working solution, then mix by vortexing 2–3 seconds. The final volume in each tube should be 200 μL
+8. Allow all tubes to incubate at room temperature for 2 minutes
+9. On the Home screen of the Qubit® 3.0 Fluorometer, press DNA, then select DNA: High Sensitivity as the assay type. The “Read standards” screen is displayed. Press Read Standards to proceed
+10. Insert the tube containing Standard #1 into the sample chamber, close the lid, then press Read standard. When the reading is complete (~3 seconds), remove Standard #1
+11. Insert the tube containing Standard #2 into the sample chamber, close the lid, then press Read standard. When the reading is complete, remove Standard #2
+12. Press Run samples
+13. On the assay screen, select the sample volume and units
+14. Insert a sample tube into the sample chamber, close the lid, then press Read tube. When the reading is complete (~3 seconds), remove the sample tube
+15. Repeat step last step until all samples have been read
 
-### Pool samples to be used with in the same index/capture.  
+### Library Amplification with Index Primers
 
-Each P1 adapter has a unique barcode sequence. These barcodes can be combined with Illumina indices (added later via PCR) for high levels of multiplexing within in a single lane of Illumina sequencing.  At this point samples with different barcodes but the same Illumina index can be pooled before amplification.  The current version of the protocol supports pooling 12 individuals per Illumina index, along with 12 unique Illumina Indices.
+1. If sets samples are receiving the same index primers a master mix can be created for each set of index primers to be used. For example, the lab has make 6 sets of master mixes, each with a unique primer pair, that was used for 3 samples each (18 total samples were amplified). The Puritz Lab often pairs the indexes to avoid index hopping on patterned flow cells, for example the 701 i7 index primer is always paired with the 501 i5 index primer. If each sample is getting a unique pair of index primers, amplification mix and primers should be aliquoted individually
+2. Example for multiple master mixes, multiply volumes by the number of samples in each index pair set. Create master mixes on ice:
 
-### Library Amplification
+|Component|Volume for 1 sample (including 10% excess)|
+|---|---|
+| KAPA HiFi HotStart Ready Mix| 13.75 μl|
+| i5 index primer X| 1.375 μl|
+| i7 index primer X| 1.375 μl|
 
-* Assemble each library amplification reaction as follows per pool:
-
-|Component|Volume|
-|---------|------|
-|KAPA HiFi HotStart ReadyMix (2X) | 12.5 μl|
-|PCR1_P5 Primer (Universal)  | 1.25 μl|
-|PCR2 Primer (Indexed)  | 1.25 μl|
-|Adapter-ligated library pool| 10.0 μl|
-|**Total Volume**| **25 μl**|
-
-* Calculate number of cycles needed based on previous quants
+3. Create new strip tubes/plates with 10 μl of cleaned, adapter ligated samples in each tube
+4. If using master mixes, add 15μl of the appropriate mix to each tube
+5. If adding unique primer pairs to each sample, add 12.5 μl of KAPA HiFi HotStart Ready Mix to each tube, then add 1.25 μl of each index primer. Having a list of which sample gets which primers that can be checked off after each addition is helpful for minimizing errors/recognizing errors
+6. Calculate number of cycles needed based on previous quants
 
 |Amount of adapter-ligated DNA in amplification reaction| Number of cycles required to generate 1 μg of library DNA|
 |--------------|-------------------------------------------|
@@ -1281,45 +1261,41 @@ Each P1 adapter has a unique barcode sequence. These barcodes can be combined wi
 |5 ng|11-12|
 |1 ng|12-13|
 
-### For Puritz and Lotterhos (2017), 6 PCR cycles were used.
+_For Puritz and Lotterhos (2017), 6 PCR cycles were used_
 
-* Mix thoroughly and centrifuge briefly.
-* Amplify using the following cycling protocol:
+7. Vortex and centrifuge briefly
+8. Amplify using the following cycling protocol (X is chosen number of cycles):
 
 |Step|Temp|Duration|Cycles|
 |----|----|--------|------|
 |Initial denaturation|98 °C|45 sec|1|
 |Denaturation|98 °C|15 sec|X|
-|Annealing*|60 °C|30 sec|X|
+|Annealing|60 °C|30 sec|X|
 |Extension|72 °C|30 sec|X|
 |Final Extension|72 °C|1 min|1|
 |Hold|4 °C | ∞|1|
 
-* Proceed immediately to the next step
+5. Proceed immediately to the next step
 
 ### Post-amplification Cleanup
 
-* In the library amplification plate/tube(s) perform a 1X bead-based cleanup by combining the following:
-
-|Component|Volume|
-|---------|------|
-|Adapter ligation reaction product| 25 μl|
-|KAPA Pure Beads | 25 μl|
-|**Total Volume**| **50 μl**|
-
-* Mix thoroughly by vortexing and/or pipetting up and down multiple times
-* Incubate the plate/tube(s) at room temperature for 5 – 15 min to bind DNA to the beads
-* Place the plate/tube(s) on a magnet to capture the beads. Incubate until the liquid is clear
-* Carefully remove and discard the supernatant
-* Keeping the plate/tube(s) on the magnet, add 200 μL of 80% ethanol.
-* Incubate the plate/tube(s) on the magnet at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol.
-* Keeping the plate/tube(s) on the magnet, add 200 μL of 80% ethanol.
-* Incubate the plate/tube(s) on the magnet at room temperature for ≥30 sec.
-* Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.
-* Dry the beads at room temperature for 3 – 5 min, or until all of the ethanol has evaporated. Caution: over-drying the beads may result in reduced yield.
-* Remove the plate/tube(s) from the magnet.
-* Resuspend in 15 μl of 10 mM Tris or water
+1. Bring KAPA Pure Beads to room temperature by taking out of the 4 degree ~30 minutes before use and swirl to mix
+2. Perform a 1X cleanup by adding 25 μl of KAPA Pure beads to each sample tube after the amplification step and pipetting ~10 times until homogenous
+3. Incubate the plate/tube(s) at room temperature for 15 min to bind DNA to the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
+4. Place the plate/tube(s) on a magnet to capture the beads. Incubate until the liquid is clear
+5. Carefully remove and discard the supernatant
+6. Keeping the plate/tube(s) on the magnet, add 200 μL of 80% ethanol
+7. Incubate the plate/tube(s) on the magnet at room temperature for ≥30 sec
+8. Carefully remove and discard the ethanol
+9. Keeping the plate/tube(s) on the magnet, add 200 μL of 80% ethanol
+10. Incubate the plate/tube(s) on the magnet at room temperature for ≥30 sec
+11. Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads
+12. Dry the beads at room temperature for 5 min, or until all of the ethanol has evaporated. *Caution: over-drying the beads may result in reduced yield.*
+13. Remove the plate/tube(s) from the magnet
+14. Thoroughly resuspend the beads in in 15 μL of 10 mM Tris-HCl, pH 8.0
+15. Incubate the plate/tube(s) at room temperature for 5 min to elute DNA off the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
+16. Place the plate/tube(s) on a magnet to capture the beads. Incubate until the liquid is clear
+17. Transfer 11 μL of supernatant to a new plate/tube(s)
 
 ---
 
