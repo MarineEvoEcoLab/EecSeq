@@ -703,7 +703,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 |---------|------|
 |Sample library | 13.5 𝜇l|
 |4X Hybridization buffer| 4.5 𝜇l|
-|**Total Volume Per Sample**|**18 𝜇**L|
+|**Total Volume Per Sample**|**18 𝜇L**|
 
 5. Gently pipette the entire volume up and down 10 times, then centrifuge briefly to mix
 6. Transfer the entire volume of reaction mix directly to the bottom of a new, sterile, nuclease‐free 200 μl PCR tube, using a pipette. Do not let the sample contact the side of the tube during the process
