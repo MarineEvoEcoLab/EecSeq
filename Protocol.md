@@ -224,7 +224,7 @@ For a 50mL conical of 10X annealing buffer:
 ### Anneal RNA Adapters
 Single-stranded oligos need to be annealed with their appropriate partner before ligation. Then the annealed adapters have to be diluted to a working strength concentration.
 
-* To create Adapter SAI1_I5, combine Universal_SAI1_Adapter with Indexed_Adapter_SAI1_I5 in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40uL Universal_SAI1_Adapter, 40ul Indexed_Adapter_SAI1_I5, 10ul 10x annealing buffer and 10ul nuclease-free water). Pair Universal_SAI1_Adapter with Indexed_Adapter_SAI1_I8, Indexed_Adapter_SAI1_I9, Indexed_Adapter_SAI1_I11 in the same fasion.
+1. To create Adapter SAI1_I5, combine Universal_SAI1_Adapter with Indexed_Adapter_SAI1_I5 in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40uL Universal_SAI1_Adapter, 40ul Indexed_Adapter_SAI1_I5, 10ul 10x annealing buffer and 10ul nuclease-free water). Pair Universal_SAI1_Adapter with Indexed_Adapter_SAI1_I8, Indexed_Adapter_SAI1_I9, Indexed_Adapter_SAI1_I11 in the same fasion.
 2.   In a thermocyler, incubate at 97.5°C for 2.5 minutes, and then cool at a rate of not greater than 3°C per minute until the solution reaches a temperature of 21°C. Hold at 4°C.
 3.   Prepare final working strength concentrations of annealed adapters from this annealed stock (the appropriate working stock dilution for your experiment can be determined from the chart below). For convenience, it is possible to store the adapters at 4°C while in active use.  
 
@@ -1051,11 +1051,6 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 
 ## Preparation of whole genome libraries
 
-### Using KAPA HyperPlus Kit with 1/2 reactions
-
-Refer to [manual](https://www.kapabiosystems.com/document/kapa-hyperplus-library-preparation-kit-tds/?dl=1) during procedure (steps below are for notes and comments).
-
-#### For Puritz and Lotterhos 2017, genomic DNA was sheared to a modal peak of 150 bp using a Covaris sonicator.  The protocol below assumes you are starting with sheared DNA
 
 ### Materials Needed
 
@@ -1106,12 +1101,13 @@ PCR Primers:
 |i7_PCRprimer_711|CAAGCAGAAGACGGCATACGAGATGCGCGAGAGTGACTGGAGTTCAGACGTGTGC*T|
 |i7_PCRprimer_712|CAAGCAGAAGACGGCATACGAGATCTATCGCTGTGACTGGAGTTCAGACGTGTGC*T|
 
+
 ### Anneal Adapters
 Single-stranded oligos need to be annealed with their appropriate partner before ligation.
 
-* To create Adapter P1, combine each oligo 1.1 with its complementary oligo 1.2 in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40ul oligo 1.1, 40ul oligo 1.2, 10ul 10x annealing buffer and 10ul nuclease-free water). Do the same for oligos 2.1 and 2.2 to create the common adapter P2.
-* In a thermocyler, incubate at 97.5°C for 2.5 minutes, and then cool at a rate of not greater than 3°C per minute until the solution reaches a temperature of 21°C. Hold at 4°C.
-* Prepare final working strength concentrations of annealed adapters from this annealed stock. For convenience, it is possible to store the adapters at 4°C while in active use.  **For Puritz and Lotterhos 2017, a working stock of 40 μM was used, leading to a final adapter:insert molar ratio of ~ 50:1.**
+1. To create Adapter Y-inline 1, combine each oligo 1a with its complementary oligo 1b in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40ul oligo 1a, 40ul oligo 1b, 10ul 10x annealing buffer and 10ul nuclease-free water). Do the same for oligos 2a and 2b to create the adapter Y-inline 2.
+2. In a thermocyler, incubate at 97.5°C for 2.5 minutes, and then cool at a rate of not greater than 3°C per minute until the solution reaches a temperature of 21°C. Hold at 4°C.
+3. Prepare final working strength concentrations of annealed adapters from this annealed stock. For convenience, it is possible to store the adapters at 4°C while in active use.  **For Puritz and Lotterhos 2017, a working stock of 40 μM was used, leading to a final adapter:DNA molar ratio of ~ 50:1.**
 
 ### Note about multiplexing and DNA adapters
 
@@ -1131,10 +1127,19 @@ The above adapters have inline barcodes which will appear in the sequences and n
 |10|TAGCTT|
 |11|GGCTAC|
 |12|CTTGCA|
+
 These inline barcodes can be combined with the 12 PCR primers that add a P7 Illumina index which is read directly in a sepeartate sequencing run and is returned to the user in index-labeled files.  With the above design 144 different individuals or pools could be multiplexed on a single lane.
 
 Alternatively, any TruSeq style DNA adapters could be used with this protocol as long as they match with the [Blockling Oligos](#blocking-oligos) used during [Probe Hybridization](#hybridization)
+
 ---
+
+### Using KAPA HyperPrep Kit with 1/2 reactions
+
+Refer to [manual](https://rochesequencingstore.com/wp-content/uploads/2017/10/KAPA-HyperPrep-Kit_KR0961-%E2%80%93-v7.19.pdf) during procedure (steps below are for notes and comments).
+
+#### For Puritz and Lotterhos 2017, genomic DNA was sheared to a modal peak of 150 bp using a Covaris sonicator. For other preps in the Puritz Lab, we have used a QSonica sonicator for a modal peak at 150bp. The protocol below assumes you are starting with sheared DNA
+
 
 ### Procedure
 
