@@ -1362,7 +1362,13 @@ Note that if using custom DNA adapters, it is critical to ensure that the blocki
 * 0.5x SSC / 0.1% SDS
 * 0.1x SSC / 0.1% SDS
 
-Examples on how to make solutions, the [Solution Dilution Calculator](https://www.sigmaaldrich.com/chemistry/stockroom-reagents/learning-center/technical-library/solution-dilution-calculator.html) is very helpful. **NOTE: calculate the volume you need for each of these solutions based on the number of captures you have**:
+**NOTE: calculate the volume you need for each of these solutions based on the number of captures you have. How to calculate:**
+* **TEN** : 200 μl for each of 4 washes (800 μl), plus 200 μl for each capture reaction
+* **1x SSC / 0.1% SDS** : 200 μl for each of 2 washes per capture (400 μl * number of captures)
+* **0.5x SSC / 0.1% SDS** : 200 μl per capture (200 μl * number of captures)
+* **0.1x SSC / 0.1% SDS** : 200 μl per capture (200 μl * number of captures)
+
+Examples on how to make solutions, the [Solution Dilution Calculator](https://www.sigmaaldrich.com/chemistry/stockroom-reagents/learning-center/technical-library/solution-dilution-calculator.html) is very helpful. **These are example volumes, please calculate what you will need**:
 * TEN solution (3mL):
 	- 6 μl 500mM EDTA
 	- 600 μl 5M NaCl
@@ -1375,7 +1381,7 @@ Examples on how to make solutions, the [Solution Dilution Calculator](https://ww
 	- 50 μl 20X SSC
 	- 20 μl 10% SDS
 	- 1930 μl nuclease-free water
-* 0.1x SSC / 0.1% SDS
+* 0.1x SSC / 0.1% SDS (2mL)
 	- 10 μl 20X SSC
 	- 20 μl 10% SDS
 	- 1970 μl nuclease-free water
@@ -1385,7 +1391,9 @@ Examples on how to make solutions, the [Solution Dilution Calculator](https://ww
 
 ## Hybridization
 
-* Make the Hybridization master mix on ice, multiply volumes by number of captures:
+It takes some planning to time this nicely. Immediately after the 48 hour incubation you have to do the capture, 4 washes, and elution. This will probably take 2 hours, and you will likely want to do the amplification and QC the same day. Try to plan to have the hybridization finished at noon, leaving you the afternoon to do the rest of the steps.
+
+1. Make the Hybridization master mix on ice, multiply volumes by number of captures:
 
 | Component                                | Volume  for 1 capture (inculdes 10% excess)|
 | -------------------------------------- | ----------- |
@@ -1400,30 +1408,36 @@ Examples on how to make solutions, the [Solution Dilution Calculator](https://ww
 | BO.4 blocking oligo (200 μM)           | 0.44 μl        |
 
 _Be careful and make sure to add each component in these steps!_
-* Pool gDNA libraries as planned into capture pools in 0.2mL PCR strip tubes
-* Add 500ng (or other amount as planned) of probes to each capture pool
-* If the volume of pooled gDNA libraries and probes in each tube is less than 23.5 μl, increase the volume to 23.5 μl with nuclease-free water
-* Add 16.5 μl of the hybridization master mix to each capture pool
-* Pipette to mix, the total volume should be 40 μl
-* Incubate at 95°C for 10 minutes, then at 65°C for 48 hours. Mix from time to time, about every 12 hours is ok. This can be done in a standard thermocycler, but is probably best performed in an hybridization oven with a rocking rotor for the 48 hours incubation
+2. Pool gDNA libraries as planned into capture pools in 0.2mL PCR strip tubes
+3. Add 500ng (or other amount as planned) of probes to each capture pool
+4. If the volume of pooled gDNA libraries and probes in each tube is less than 23.5 μl, increase the volume to 23.5 μl with nuclease-free water
+5. Add 16.5 μl of the hybridization master mix to each capture pool
+6. Pipette to mix, the total volume should be 40 μl
+7. Incubate at 95°C for 10 minutes, then at 65°C for 48 hours. Mix from time to time, about every 12 hours is ok. This can be done in a standard thermocycler, but is probably best performed in an hybridization oven with a rocking rotor for the 48 hours incubation. _Because it's such a long incubation there may be evaporation, especially if you use a rocking oven. This has never effected yield (to our knowledge), but you can try parafilming the tubes and keeping them in a plastic bag to minimize evaporation)._
 
 ### Preparation of Dynabeads
 
-* Resuspend well Dynabeads M-280 (10 mg/ml).
-* Dispense 10 μl of beads in a PCR tube.
-* Wash:
-	* magnetize, remove and discard supernatant,
-	* resuspend in 200 μl of TEN.
-* Repeat the wash two times for a total of three washes
-* Store in 200 μl of TEN at room temperature until use.
+1. Do this the day the incubation ends, about an hour before it's ready
+2. Resuspend Dynabeads M-280 (10 mg/ml) by pipetting. The volume is small, so try to store the tube upright
+3. For each capture reaction: dispense 10 μl of beads in a PCR tube
+4. Place tubes on a magnet stand and wait for the solution to go clear
+5. Remove and discard the supernatant
+6. Take tubes off the magnet and resuspend the beads in 200μl TEN
+7. Repeat: Place tubes on a magnet stand and wait for the solution to go clear
+8. Remove and discard the supernatant
+9. Take tubes off the magnet and resuspend the beads in 200μl TEN
+10. Repeat again: Place tubes on a magnet stand and wait for the solution to go clear
+11. Remove and discard the supernatant
+12. Take tubes off the magnet and resuspend the beads in 200μl TEN
+13. Repeat wash a 3rd time: Place tubes on a magnet stand and wait for the solution to go clear
+14. Remove and discard the supernatant
+15. Take tubes off the magnet and resuspend the beads in 200μl TEN and store at room temp until use
 
-If more captures are expected, increase the initial amount of beads accordingly, transfer the final resupension into an eppendorf tube and add the appropriate volume of TEN (10 μl of beads should be resuspended in 200 μl of TEN).
+### Capture and Washes
 
-### Washes
-
-* Add 40 μl of the hybridization mixture to 200ul of Dynabeads
-* Gently mix with pippette or inverting tube
-* Incubate 30 min at room temperature.
+1. Add each 40 μl of the hybridization mixture to their respective tube with 200ul of Dynabeads (could be less than 40 μl if some evaporated)
+2. Gently mix by pipetting
+3. Incubate 30 min at room temperature on an orbital shaker at 200 rpm
 * Place on the magnet
 * Remove supernatant and retain in case of DNA loss.
 * Resuspend beads in 200 μl of **65°C 1x SSC / 0.1% SDS**.
