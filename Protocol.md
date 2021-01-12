@@ -1112,6 +1112,10 @@ PCR Primers:
 |i7_PCRprimer_711|CAAGCAGAAGACGGCATACGAGATGCGCGAGAGTGACTGGAGTTCAGACGTGTGC*T|
 |i7_PCRprimer_712|CAAGCAGAAGACGGCATACGAGATCTATCGCTGTGACTGGAGTTCAGACGTGTGC*T|
 
+**Note about PCR Primers** In recent EecSeq preps, the Puritz lab has been pairing PCR primers to avoid index hopping on Illumina patterned flow cells (HiSeq X Ten, HiSeq3000, HiSeq4000, NovaSeq6000). For example, libraries with the i5 501 index will always have a i7 701 index. If in your sequencing reads you get a sequence with i5 501 and i7 703 indexes, you can discard those reads as index hopping (instead of missassinging reads if you had a library with that index combination). This does limit multiplexing, however with 12 adapter inline barcodes and 12 pairs of PCR indexes, this is 144 unique combinations.
+
+**Please make sure you have planned your multiplexing before starting library prep. It is best practice to randomly and evenly allocate samples by attributes (location, species, population, treatment, etc.) to index/barcode combinations if possible to avoid any sequencing batch effects. For example, do not give all of the samples in population A the same index pair.**
+
 
 ### Anneal Adapters
 Single-stranded oligos need to be annealed with their appropriate partner before ligation.
@@ -1316,6 +1320,16 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 ---
 ## Hybridization and Capture
 
+#### Planning Captures
+
+* Plan your capture pools before starting hybridization. In fact, planning capture pools should be done when planning multiplexing. The main thing to do when planning how many captures to do is to evenly spread sample "attributes" between captures, ie if you have samples from 4 populations, each capture should have roughly the same number of samples from each population. This minimizes any batch effect based on capture efficiency.
+* There is also the question of how much gDNA library per sample to use, and how many gDNA libraries to have in each capture reaction. The Puritz Lab has had successes with capture pools that included: 5, 6, and 10 samples in each. The lab has also had success with 500ng as the total amount for the capture pooled gDNA, and with 200ng of each gDNA library.
+* How many gDNA libraries you have will be the largest factor in determining this. The washes after hybridization are intensive, so decreasing the number of tubes to handle is something to consider. For example, for a project with 50 samples, 5 capture pools that had 10 samples each were used. For a project with 18 samples, 3 capture pools that had 6 samples each were used.
+* Probes are used in excess. We recommend using 500 ng of probes, but have also successfully captured with as little as 100 ng of probes and 100 ng of library. We have also had success with 500ng of probes with 600ng of pooled gDNA libraries, and 500ng of probes with 1ug of pooled gDNA libraries.
+* **It is important to note that the total volume of all the gDNA libraries for 1 capture plus the volume of probes needs to be less than or equal to 23.5ul.**
+
+
+
 ### Materials needed
 | Reagent                                | Supplier         | Catalog #      |            
 |----------------------------------------|------------------|-----------|
@@ -1324,7 +1338,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 |SSC Buffer Concentrate (20x)            |Fisher Scientific | 5075059      |              
 |SDS Micropellets           |Fisher Scientific | BP8200100      |             
 |Cot-1 DNA (1 mg/ml)                     |ThermoFischer     | 15279011|                   
-|Agencourt AMPure XP                     |Beckman Coulter   | A63881|
+|KAPA Pure Beads                     |Roche Sequencing   | KK8001|
 
 ## Blocking Oligos
 
