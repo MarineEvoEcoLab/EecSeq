@@ -509,7 +509,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 For Puritz and Lotterhos 2017, we used 4000 ng starting RNA, but because of difficulties assessing and quantifying molluscan RNA, we chose to use a 700 nM working stock with a final reaction concentration of 50 nM.
 
-#### This will be where we insert the custom adapters that are barcoded with RE sites
+#### This will be where we insert the custom adapters with restriction enzyme sites
 
 1. Make the adapter ligation **master mix** on ice (multiple volumes by number of samples):
 
