@@ -1533,3 +1533,11 @@ The amount of capture DNA will be really small, and needs to be amplified before
 * These should be the same size as your gDNA libraries
 * Example capture pool
 ![](https://raw.githubusercontent.com/meschedl/MES_Puritz_Lab_Notebook/master/images/B10-cap1.png)
+
+### Extra Resources:
+
+Lab notebook posts from Puritz lab manager doing EecSeq:
+	- [Probe synthesis, hybridization, and capture](https://meschedl.github.io/MES_Puritz_Lab_Notebook/2019-10-04/B10-Probes)
+	- [gDNA Library prep for EecSeq](https://meschedl.github.io/MES_Puritz_Lab_Notebook/2019-09-25/B10-DNA-lib-prep)
+	- [mRNA library prep for EecSeq](https://meschedl.github.io/MES_Puritz_Lab_Notebook/2019-09-16/B10-cDNA-pre)
+	- [A different Probe synthesis, hybridization, and capture](https://meschedl.github.io/MES_Puritz_Lab_Notebook/2019-08-12/B12-Probes)
