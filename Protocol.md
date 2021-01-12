@@ -860,7 +860,7 @@ Review the planning for how much probes you will need.  Ideally, there should be
 | DSN Enriched Library| 12.25 μl|
 |**Total Volume**| **40 μl**|
 
-3. Incubate reactions in thermocycler at 37°C for between 4 and 16 hours (we have had similar sucess with 4, 8, and 12 hours).
+3. Incubate reactions in thermocycler at 37°C for between 4 and 16 hours (we have had similar success with 4, 8, and 12 hours).
 
 4. **Using the same tubes from the previous step** combine the following:
 
@@ -873,7 +873,7 @@ Review the planning for how much probes you will need.  Ideally, there should be
 
 5. Incubate at 30°C for 30 minutes
 
-6. Do 2 consecuative 1.5X KAPA Pure Bead cleanups to remove the enzymes and all digested adapters. _Note, there is a chance you can get away with 1 clean up, but we almost always have to do a second cleanup. You can check for any residual adapters between cleanups with a D5000 TapeStation run_
+6. Do 2 consecutive 1.5X KAPA Pure Bead cleanups to remove the enzymes and all digested adapters. _Note, there is a chance you can get away with 1 clean up, but we almost always have to do a second cleanup. You can check for any residual adapters between cleanups with a D5000 TapeStation run_
 
 #### 1st 1.5X Bead Cleanup
 
@@ -923,7 +923,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 16. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear
 17. Transfer 21 μl of the clear supernatant to a new plate/tube and proceed to next step
 
-**Here, 1μl of cleaned MBN reaction should be run on a fragment analyzer such as a TapeStation. You should check for a loss in size compared to the final cDNA libraries (loss of adapters), and for no small peaks that are left-over adapters. See example:
+**Here, 1μl of cleaned MBN reaction should be run on a fragment analyzer such as a TapeStation. You should check for a loss in size compared to the final cDNA libraries (loss of adapters), and for no small peaks that are left-over adapters. See example:**
 
 ![](https://raw.githubusercontent.com/meschedl/MES_Puritz_Lab_Notebook/master/images/12-mbn-re-1.png)
 
@@ -1528,6 +1528,6 @@ The amount of capture DNA will be really small, and needs to be amplified before
 ### Verify
 
 * Run cleaned captures on BioAnalyzer/Tape Station/Fragment analyzer
-* These should be the same size as your gDNA libraries 
+* These should be the same size as your gDNA libraries
 * Example capture pool
 ![](https://raw.githubusercontent.com/meschedl/MES_Puritz_Lab_Notebook/master/images/B10-cap1.png)
