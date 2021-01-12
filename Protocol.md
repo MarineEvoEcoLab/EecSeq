@@ -675,9 +675,8 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 |Strip tubes|General lab supplier|
 |DSN Kit|Evrogen, part # EA001 Sigma Aldrich, part # E7023|
 |Ethanol 200 proof (absolute) for molecular biology (500 ml)|AB, part # 4333764F|
-|PCR Primer PE 1.0|Included in Kapa stranded mRNA kit|
-|PCR Primer PE 2.0|Included in Kapa stranded mRNA kit|
-|SPRI beads|Agencourt AMPure, part # 29152; KAPA Pure Beads, part #KK8000|
+|10X KAPA Library Amplification Primer Mix (Universal primer mix)|Included in KAPA stranded mRNA kit|
+|SPRI beads|KAPA Pure Beads, part #KK8000|
 |Nuclease-free water|General lab supplier|
 
 #### Equipment
