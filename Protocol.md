@@ -316,7 +316,7 @@ Steps in Library construction:
 13. Place the plate/tube on the magnet and incubate at room temperature until the solution is clear. Remove and discard the entire volume of supernatant
 
 ### mRNA Elution, Fragmentation, and Priming
-1. Prepare the required volume of 1X Fragment, Prime and Elute Buffer as a master mix to be used for each sample as follows:
+1. Prepare the required volume of 1X Fragment, Prime and Elute Buffer as a master mix to be used for each sample as follows (multiply volume by number of samples):
 
 |Component|Volume per sample|
 |---------|------|
@@ -349,9 +349,9 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 ### 1st Strand Synthesis
 
-1. Make the 1st Strand Synthesis **master mix** on ice:
+1. Make the 1st Strand Synthesis **master mix** on ice (multiply volumes by number of samples):
 
-|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol) with 20% excess already calculated|
+|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol) with 20% |
 |---------|--------------------|
 |1st Strand Synthesis Buffer|5.5 μl|
 |KAPA Script|0.5 μl|
@@ -378,9 +378,9 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 ### 2nd Strand Synthesis and Marking
 
-1. Make the 2nd Strand Synthesis and Marking **master mix** on ice:
+1. Make the 2nd Strand Synthesis and Marking **master mix** on ice (multiple volumes by number of samples):
 
-|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol) with 10% excess already calculated|
+|Component| Volume needed for 1 reaction (1/2 reactions from kit protocol) with 10% excess |
 |---------|--------------------|
 |2nd Strand Marking Buffer|15.5 μl|
 |2nd Strand Synthesis Enzyme Mix|1 μl|
@@ -407,12 +407,12 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 1. Bring KAPA Pure Beads to room temperature by taking them out of the fridge ~30 minutes before you need them, and swirl the bottle to resuspend the beads completely
 
-2. Perform a 1.8X SPRI® (bead) cleanup by combining the following for each reaction:
+2. Perform a 1.8X Bead cleanup by combining the following for each reaction:
 
 |Component|Volume|
 |---------|------|
 |2nd Strand Synthesis reaction product (total volume)| 30 μl|
-|Agencourt® AMPure® XP reagent| 54 μl|
+|KAPA Pure beads| 54 μl|
 |**Total Volume**| **84 μl**|
 
 3. Thoroughly resuspend the beads in each sample by pipetting up and down multiple times
@@ -432,7 +432,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 ---
 
 ### SAFE STOPPING POINT
-* Resuspend the beads in 7.5 μl 1X A-Tailing Buffer:
+* Resuspend the beads in 7.5 μl 1X A-Tailing Buffer (multiple volumes by number of samples):
 
 |Component| Volume needed for 1 reaction (1/2 reactions from kit protocol)|
 |---------|--------------------|
@@ -447,7 +447,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 * A-Tailing is performed either directly after the 2nd Strand Synthesis and Marking Cleanup, or after the Safe Stopping Point, where beads were resuspended in 1X A-Tailing Buffer and stored at 4 °C for up to 24 hours.
 
 #### A-Tailing immediately
-1. On ice, make the A-Tailing Immediately **master mix**:
+1. On ice, make the A-Tailing Immediately **master mix** (multiple volumes by number of samples):
 
 |Component| Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
 |---------|--------------------|
@@ -468,7 +468,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 5. Proceed immediately to **Adapter Ligation**.
 
 #### A-Tailing after safe stopping point
-1. To resume library preparation after storing the samples overnight, make the A-Tailing after safe stopping point **master mix** on ice:
+1. To resume library preparation after storing the samples overnight, make the A-Tailing after safe stopping point **master mix** on ice (multiple volumes by number of samples):
 
 |Component|  Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
 |---------|--------------------|
@@ -510,7 +510,7 @@ For Puritz and Lotterhos 2017, we used 4000 ng starting RNA, but because of diff
 
 #### This will be where we insert the custom adapters that are barcoded with RE sites
 
-1. Make the adapter ligation **master mix** on ice:
+1. Make the adapter ligation **master mix** on ice (multiple volumes by number of samples):
 
 |Component| Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
 |---------|--------------------|
@@ -687,7 +687,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 
 1. First pool individual RNA libraries in equal quantities to create a single pool, we have experiemented with 500 ng total or 200ng of each library, the final volume of this should not exceed 13.5 μl. If many probes are desired, multiple probe synthesis reactions can be done, and pooled at the end before hybridization
 
-2. Create a 4X hybridization solution (this amount it excess of what is needed):
+2. Create a 4X hybridization solution (this amount is excess of what is needed):
 
 |Component|Volume|
 |---------|------|
@@ -955,7 +955,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 3. Add 20 μl of the RE and MBN treated DSN Library to each reaction tube
 4. Vortex the tubes and spin down in a microcentrifuge for 3-5 s
 5. Incubate the tube in the theremocycler at 98°C for 10 minutes, bring down to a 4°C hold and once finished put it on ice. Spin down quickly and keep on ice
-6. Make a master mix on ice for biotin labeling, if oing only 1 reaction use 5 μl Biotin Labeling Mix and 1 μl Klenow fragment, exo– (5 ul)
+6. Make a master mix on ice for biotin labeling, if doing only 1 reaction use 5 μl Biotin Labeling Mix and 1 μl Klenow fragment, exo– (5 ul)
 
 |Component|Volume for 1 reaction (with 10% excess)|
 |---------|------|
@@ -1158,7 +1158,7 @@ Refer to [manual](https://rochesequencingstore.com/wp-content/uploads/2017/10/KA
 
 ### End repair
 1. Adjust sample volume of 500 ng fragmented DNA to 25 μl with 10mM Tris HCl in PCR strip tubes or a plate
-2. Create the End Repair and A-Tailing master mix on ice:
+2. Create the End Repair and A-Tailing master mix on ice (multiple volumes by number of samples):
 
 |Component|Volume for 1 reaction (includes 10% excess)|
 |---------|------|
@@ -1196,7 +1196,7 @@ Refer to [manual](https://rochesequencingstore.com/wp-content/uploads/2017/10/KA
 
 **For Puritz and Lotterhos (2017), a working stock of 40 μM was used, leading to a final adapter:insert molar ratio of ~ 50:1.**
 
-2. Make the Adapter Ligation master mix on ice:
+2. Make the Adapter Ligation master mix on ice (multiple volumes by number of samples):
 
 |Component|Volume for 1 reaction (includes 10% excess)|
 |---------|------|
@@ -1251,7 +1251,7 @@ Refer to [manual](https://rochesequencingstore.com/wp-content/uploads/2017/10/KA
 ### Library Amplification with Index Primers
 
 1. If sets samples are receiving the same index primers a master mix can be created for each set of index primers to be used. For example, the lab has make 6 sets of master mixes, each with a unique primer pair, that was used for 3 samples each (18 total samples were amplified). The Puritz Lab often pairs the indexes to avoid index hopping on patterned flow cells, for example the 701 i7 index primer is always paired with the 501 i5 index primer. If each sample is getting a unique pair of index primers, amplification mix and primers should be aliquoted individually
-2. Example for multiple master mixes, multiply volumes by the number of samples in each index pair set. Create master mixes on ice:
+2. Example master mixes, multiply volumes by the number of samples in each index pair set. Create master mixes on ice:
 
 |Component|Volume for 1 sample (including 10% excess)|
 |---|---|
