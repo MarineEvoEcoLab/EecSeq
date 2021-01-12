@@ -212,21 +212,13 @@ For a 50mL conical of 10X annealing buffer:
 
 ![alt text](/RNAadapter.png)
 
-
-<<<<<<< HEAD
 |Oligo Name| Sequence|Inline Barcode|
 |----------|---------|--------------|
 |Y-inline-SaIIa|CACTCTTTCCCTACACGACGCTCTTCCGATCTNNNNNNGTCGACT*T|
 |Y-inline-SaIIa_NO_N|CACTCTTTCCCTACACGACGCTCTTCCGATCTGTCGAC*T|
 |Y-inline-SaIIb|PA*GTCGACNNNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTC|
 |Y-inline-SaIIb_NO_N|PG*TCGACAGATCGGAAGAGCACACGTCTGAACTCCAGTC|
-=======
-|Oligo Name| Sequence|
-|----------|---------|
-|Universal_SAI1_Adapter|AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCTGTCGACT*T|
-|Y-inline-SaIIa|CACTCTTTCCCTACACGACGCTCTTCCGATCTNNNNNNGTCGACT*T|
-|Y-inline-SaIIa_NO_N|CACTCTTTCCCTACACGACGCTCTTCCGATCTGTCGAC*T|
->>>>>>> a2118e35915a32bb12e9631a6c06664a9935bb42
+
 
 ### Anneal RNA Adapters
 Single-stranded oligos need to be annealed with their appropriate partner before ligation. Then the annealed adapters have to be diluted to a working strength concentration.
