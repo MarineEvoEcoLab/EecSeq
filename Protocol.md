@@ -664,7 +664,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 
 #### DSN needs to be properly dilued and should be tested for activity levels before proceeding
 
-#### The protocol below was taken from Illumina's recommendations [LINK](https://support.illumina.com/content/dam/illumina-support/documents/myillumina/7836bd3e-3358-4834-b2f7-80f80acb4e3f/dsn_normalization_sampleprep_application_note_15014673_c.pdf)
+#### The protocol below was taken from Illumina's recommendations [LINK](https://github.com/MarineEvoEcoLab/EecSeq/blob/master/DSN_Normalization_SamplePrep_Guide_15014673_B.pdf)
 #### Reagents
 
 | Reagent| Supplier|
@@ -685,7 +685,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 
 #### Procedure
 
-1. First pool individual RNA libraries in equal quantities to create a single pool, we have experiemented with 500 ng total or 200ng of each library, the final volume of this should not exceed 13.5 μl. If many probes are desired, multiple probe synthesis reactions can be done, and pooled at the end before hybridization
+1. First pool individual RNA libraries in equal quantities to create a single pool, we have experimented with 500 ng total or 200ng of each library, the final volume of this should not exceed 13.5 μl. If many probes are desired, multiple probe synthesis reactions can be done, and pooled at the end before hybridization
 
 2. Create a 4X hybridization solution (this amount is excess of what is needed):
 
@@ -729,7 +729,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
   * **Note**:Pipette the solution directly to the bottom of the PCR tube and do not let the sample get stuck on the side of the tube during the process
 18. Repeat steps 6 and 7 for each reaction mix tube
 19. Incubate the reaction mix tubes on the thermal cycler at 68°C for 25 minutes
-20. Add 40 μl of 2X DSN stop solution to each reaction mix tube. Gently pipette the entire volume up and down to mix thoroughly, then place the tubes on ice
+20. Add 40 μl of 2X room temp DSN stop solution to each reaction mix tube. Gently pipette the entire volume up and down to mix thoroughly, then place the tubes on ice
 
 ---
 
@@ -744,7 +744,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 3. Thoroughly resuspend the beads by pipetting up and down multiple times
 4. Incubate the plate/tube at room temperature for 15 min to allow the DNA to bind to the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
 5. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear
-6. Carefully remove and discard 235 μl of supernatant
+6. Carefully remove and discard ~200 μl of supernatant
 7. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol
 8. Incubate the plate/tube at room temperature for ≥30 sec.
 9. Carefully remove and discard the ethanol
@@ -910,7 +910,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 2. Perform a 1.5X bead cleanup by adding 31.5 μl of KAPA Pure Beads to each 21 μl of the 1st cleaned up MBN treated reaction the beads by pipetting up and down multiple times
 3. Incubate the plate/tube at room temperature for 15 min to allow the DNA to bind to the beads, if the samples can be placed on an orbital shaker at 200rpm this is ideal
 4. Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear
-5. Carefully remove and discard 115 μl of supernatant
+5. Carefully remove and discard ~50ul μl of supernatant
 6. Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol
 7. Incubate the plate/tube at room temperature for ≥30 sec
 8. Carefully remove and discard the ethanol
