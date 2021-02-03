@@ -729,7 +729,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
   * **Note**:Pipette the solution directly to the bottom of the PCR tube and do not let the sample get stuck on the side of the tube during the process
 18. Repeat steps 6 and 7 for each reaction mix tube
 19. Incubate the reaction mix tubes on the thermal cycler at 68°C for 25 minutes
-20. Add 40 μl of 2X room temp DSN stop solution to each reaction mix tube. Gently pipette the entire volume up and down to mix thoroughly, then place the tubes on ice
+20. Add 40 μl of 2X DSN stop solution (should be thawed but on ice) to each reaction mix tube. Gently pipette the entire volume up and down to mix thoroughly, then place the tubes on ice
 
 ---
 
