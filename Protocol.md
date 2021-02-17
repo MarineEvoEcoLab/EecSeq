@@ -223,7 +223,7 @@ For a 50mL conical of 10X annealing buffer:
 ### Anneal RNA Adapters
 Single-stranded oligos need to be annealed with their appropriate partner before ligation. Then the annealed adapters have to be diluted to a working strength concentration.
 
-1. To create Adapter SaIIa, combine Universal_SAI1_Adapter with Y-inline-SaIIa in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40uL Universal_SAI1_Adapter, 40ul Y-inline-SaIIa, 10ul 10x annealing buffer and 10ul nuclease-free water). Pair Universal_SAI1_Adapter with Y-inline-SaIIa_NO_N in the same fashion.
+1. To create Adapter SaIIa, combine Y-inline-SaIIa withY-inline-SaIIb in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40uL Y-inline-SaIIb, 40ul Y-inline-SaIIa, 10ul 10x annealing buffer and 10ul nuclease-free water). Pair Y-inline-SaIIa_NO_N with Y-inline-SaIIb_NO_N in the same fashion.
 2.   In a thermocyler, incubate at 97.5°C for 2.5 minutes, and then cool at a rate of not greater than 3°C per minute until the solution reaches a temperature of 21°C. Hold at 4°C.
 3.   Prepare final working strength concentrations of annealed adapters from this annealed stock (the appropriate working stock dilution for your experiment can be determined from the chart below). For convenience, it is possible to store the adapters at 4°C while in active use.  
 
@@ -264,6 +264,7 @@ Steps in Library construction:
 * Adapter ligation, where dsDNA adapters with 3′-dTMP overhangs are ligated to A-tailed library insert fragments
 	* **NOTE** Here, we use the custom adapters
 * Library amplification to amplify library fragments carrying appropriate adapter sequences at both ends using high-fidelity, low-bias PCR; the strand marked with dUTP is not amplified.
+	* **NOTE** Here you can either multiplex your RNA libraries (if you are going to sequence them) using the PCR primers outlined in the Genomic Library Prep section. Or you can use the universal primer mix if you are not going to sequence them
 
 
 ## Procedure
@@ -587,7 +588,7 @@ The purified, adapter-ligated library DNA may be stored at 4 °C for up to 1 wee
 ---
 ### Library Amplificiation
 
-1. Make the library amplification **master mix** on ice, _note, if samples are being multiplexed and have different primers, do not make a master mix_:
+1. Make the library amplification **master mix** on ice, _note, if samples are being multiplexed and have different primers, do not make a master mix. If you are multiplexing, you can use the PCR primers outlined in the Genomic Library Prep section_:
 
 |Component| Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
 |---------|--------------------|
