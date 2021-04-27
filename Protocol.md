@@ -241,6 +241,8 @@ For Puritz and Lotterhos 2017, we used 4000 ng starting RNA, but because of diff
 This should take 8-10 hours and can be done over 2 days safely.
 Refer to manual during procedure (steps below are for notes and comments)
 
+**Note: the input amount of RNA for this is a lot of RNA. Our lab has had success in making libraries with 4ug, 2ug, and 1ug as the input for each sample. That is 4000ng, 2000ng, or 1000ng. The starting volume is 25ul, sometimes RNA needs to be concentrated before use (such as with a vacuum centrifuge).**
+
 #### Reagents
 
 KAPA Stranded mRNA-Seq Kit (KAPA #KK8420). This kit includes all the enzymes and buffers required for cDNA library preparation from  isolation of poly(A)-tailed RNA. Kits include reagents for RNA fragmentation, 1st strand cDNA synthesis and 2nd strand synthesis/marking, and cDNA library preparation, including A-tailing, ligation and library amplification.
