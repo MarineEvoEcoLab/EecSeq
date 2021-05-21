@@ -34,7 +34,7 @@ The Expressed Exome Capture Sequencing protocol is designed to create exome capt
 * [End Repair](#end-repair)
 * [Adapter ligation](#adapter-ligation)
 * [Quantification](#quant-samples)
-* [Amplification](#library-amplification)
+* [Amplification](#library-amplification-with-index-primers)
 
 [Hybridization and Capture](#hybridization-and-capture)
 * [Blocking Oligos](#blocking-oligos)
