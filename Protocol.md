@@ -1,5 +1,7 @@
 # EecSeq Lab Protocol
 
+#### Version 0.5.0
+
 The Expressed Exome Capture Sequencing protocol is designed to create exome capture probes directly from RNA.  The probes are then used from hybrid capture of exome DNA sequences, allowing for genotyping of alleles at expressed genes.
 
 #### This protocol is still in the process of being optimized.  Please contact Jon Puritz (jpuritz@uri.edu) for more information before starting!
@@ -7,6 +9,7 @@ The Expressed Exome Capture Sequencing protocol is designed to create exome capt
 # Outline
 
 [RNA Prep](#rna-prep)
+
 * [RNA Extraction](#extract-rna-from-individuals-to-be-used-for-probes)
 * [Quantify](#quantify-all-rna-samples)
 * [Visualize](#visualize-rna-on-bioanalyzer)
@@ -26,10 +29,12 @@ The Expressed Exome Capture Sequencing protocol is designed to create exome capt
 * [Split libraries](#split-finished-cdna-library-for-each-sample-into-two-vials)
 
 [Probe Synthesis](#probe-synthesis)
+
 * [Remove sequencing adapters](#remove-adapters-from-cdna)
 * [Biotin Labeling](#biotin-labeling)
 
 [Genomic Library Prep](#preparation-of-whole-genome-libraries)
+
 * [Anneal Adapters](#anneal-adapters)
 * [End Repair](#end-repair)
 * [Adapter ligation](#adapter-ligation)
@@ -37,6 +42,7 @@ The Expressed Exome Capture Sequencing protocol is designed to create exome capt
 * [Amplification](#library-amplification-with-index-primers)
 
 [Hybridization and Capture](#hybridization-and-capture)
+
 * [Blocking Oligos](#blocking-oligos)
 * [Hybridization](#hybridization)
 	* [Preparation of DynaBeads](#preparation-of-dynabeads)
