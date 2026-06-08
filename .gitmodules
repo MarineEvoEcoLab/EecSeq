@@ -1,0 +1,3 @@
+[submodule "Bioinformatics/dDocent_demux"]
+	path = Bioinformatics/dDocent_demux
+	url = https://github.com/MarineEvoEcoLab/dDocent_demux.git
