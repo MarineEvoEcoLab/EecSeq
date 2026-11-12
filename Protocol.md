@@ -1,6 +1,6 @@
 # EecSeq Lab Protocol
 
-#### Version 0.5.0
+#### Version 0.6.0
 
 The Expressed Exome Capture Sequencing protocol is designed to create exome capture probes directly from RNA.  The probes are then used from hybrid capture of exome DNA sequences, allowing for genotyping of alleles at expressed genes.
 
@@ -220,16 +220,18 @@ For a 50mL conical of 10X annealing buffer:
 
 |Oligo Name| Sequence|Inline Barcode|
 |----------|---------|--------------|
-|Y-inline-SaIIa|CACTCTTTCCCTACACGACGCTCTTCCGATCTNNNNNNGTCGAC\*T|NNNNNNGTCGACT|
-|Y-inline-SaIIb|\/5Phos\/A\*GTCGACNNNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTC|NNNNNNGTCGACT|
-|Y-inline-SaIIa_NO_N|CACTCTTTCCCTACACGACGCTCTTCCGATCTGTCGAC\*T|GTCGACT|
-|Y-inline-SaIIb_NO_N|\/5Phos\/G\*TCGACAGATCGGAAGAGCACACGTCTGAACTCCAGTC|GTCGACT|
+|Y-inline-SaIIa_v3|CACTCTTTCCCTACACGACGCTCTTCCGATCTNNNNNNNGTCGACT|NNNNNNNGTCGACT|
+|Y-inline-SaIIb_v3|\/5Phos\/GTCGACNNNNNNNAGATCGGAAGAGCACACGTCTGAACTCCAGTC|NNNNNNNGTCGACT|
+|Y-inline-SaIIa_NO_Nv3|CACTCTTTCCCTACACGACGCTCTTCCGATCTGTCGACT|GTCGACT|
+|Y-inline-SaIIb_NO_Nv3|\/5Phos\/GTCGACAGATCGGAAGAGCACACGTCTGAACTCCAGTC|GTCGACT|
+
+The v3 oligos have no phosphorothioate bond and are HPLC purified.
 
 
 ### Anneal RNA Adapters
 Single-stranded oligos need to be annealed with their appropriate partner before ligation. Then the annealed adapters have to be diluted to a working strength concentration.
 
-1. To create Adapter SaIIa, combine Y-inline-SaIIa withY-inline-SaIIb in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40uL Y-inline-SaIIb, 40ul Y-inline-SaIIa, 10ul 10x annealing buffer and 10ul nuclease-free water). Pair Y-inline-SaIIa_NO_N with Y-inline-SaIIb_NO_N in the same fashion.
+1. To create Adapter SAIIv3, combine Y-inline-SaIIa_v3 with Y-inline-SaIIb_v3 in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40ul Y-inline-SaIIa_v3, 40ul Y-inline-SaIIb_v3, 10ul 10x annealing buffer and 10ul nuclease-free water). Pair Y-inline-SaIIa_NO_Nv3 with Y-inline-SaIIb_NO_Nv3 in the same fashion.
 2.   In a thermocyler, incubate at 97.5°C for 2.5 minutes, and then cool at a rate of not greater than 3°C per minute until the solution reaches a temperature of 21°C. Hold at 4°C.
 3.   Prepare final working strength concentrations of annealed adapters from this annealed stock (the appropriate working stock dilution for your experiment can be determined from the chart below). For convenience, it is possible to store the adapters at 4°C while in active use.  
 
@@ -243,15 +245,17 @@ Single-stranded oligos need to be annealed with their appropriate partner before
 
 For Puritz and Lotterhos 2017, we used 4000 ng starting RNA, but because of difficulties assessing and quantifying molluscan RNA, we chose to use a 700 nM working stock with a final reaction concentration of 50 nM.
 
-### Using KAPA Stranded mRNA-Seq Kit using 1/2 rxn volumes
+### Using KAPA mRNA HyperPrep Kit using 1/2 rxn volumes
 This should take 8-10 hours and can be done over 2 days safely.
 Refer to manual during procedure (steps below are for notes and comments)
 
-**Note: the input amount of RNA for this is a lot of RNA. Our lab has had success in making libraries with 4ug, 2ug, and 1ug as the input for each sample. That is 4000ng, 2000ng, or 1000ng. The starting volume is 25ul, sometimes RNA needs to be concentrated before use (such as with a vacuum centrifuge).**
+**Note: any stranded mRNA library prep kit is compatible with EecSeq, but the steps below would need to be edited to match that kit.**
+
+**Note: pool RNA replicate samples in equal RNA amounts into a single pooled sample, keeping spawn, life stage, treatment, and any other experimental variables separate (for example CON_1 + CON_2 + CON_3 + CON_4 into CON). Transfer 1200 ng of this pool into a new PCR tube and bring the volume to 25 μl with nuclease-free water before starting.**
 
 #### Reagents
 
-KAPA Stranded mRNA-Seq Kit (KAPA #KK8420). This kit includes all the enzymes and buffers required for cDNA library preparation from  isolation of poly(A)-tailed RNA. Kits include reagents for RNA fragmentation, 1st strand cDNA synthesis and 2nd strand synthesis/marking, and cDNA library preparation, including A-tailing, ligation and library amplification.
+[KAPA mRNA HyperPrep Kit](https://rochesequencingstore.com/catalog/kapa-mrna-hyperprep-kit/). This kit includes all the enzymes and buffers required for cDNA library preparation from  isolation of poly(A)-tailed RNA. Kits include reagents for RNA fragmentation, 1st strand cDNA synthesis and 2nd strand synthesis/marking, and cDNA library preparation, including A-tailing, ligation and library amplification.
 
 #### Additional reagents needed:
 
@@ -272,8 +276,34 @@ Steps in Library construction:
 * Adapter ligation, where dsDNA adapters with 3′-dTMP overhangs are ligated to A-tailed library insert fragments
 	* **NOTE** Here, we use the custom adapters
 * Library amplification to amplify library fragments carrying appropriate adapter sequences at both ends using high-fidelity, low-bias PCR; the strand marked with dUTP is not amplified.
-	* **NOTE** Here you can either multiplex your RNA libraries (if you are going to sequence them) using the PCR primers outlined in the Genomic Library Prep section. Or you can use the universal primer mix if you are not going to sequence them
+	* **NOTE** Here we use the i5/i7 index PCR primers outlined in the Genomic Library Prep section, with a single primer pair for all RNA libraries if the probes are not going to be sequenced
 
+
+#### Library and Reagent Preparations
+
+Make adapter and index primers:
+
+* Adapter SAIIv3 (700 nM working stock)
+* i5/i7 index primers (10 μM). Use a single i5/i7 combination (for example 501-701) for all RNA libraries if the cDNA probes will not be sequenced, and do not use this combination for the gDNA libraries
+
+Equilibrate at room temperature:
+
+* mRNA Capture Beads
+* mRNA Bead Binding Buffer
+* mRNA Bead Wash Buffer
+* Fragment, Prime and Elute Buffer (2X)
+
+Thaw on ice:
+
+* Pooled RNA samples (1200 ng in 25 μl)
+* Adapter and i5/i7 index primers
+* 1st Strand Synthesis Buffer
+* KAPA Script
+* 2nd Strand Marking Buffer
+* 2nd Strand Synthesis and A-Tailing Enzyme Mix
+* Ligation Buffer
+* DNA Ligase
+* KAPA HiFi HotStart ReadyMix
 
 ## Procedure
 
@@ -282,7 +312,7 @@ Steps in Library construction:
 **Before mRNA capture beads can be used they must be washed with mRNA Bead Binding Buffer**
 1. Resuspend beads thoroughly by gentle pipetting
 2. For each library to be prepared, transfer 26.25 uL of the resuspended mRNA Capture beads into a 1.5mL tube
-  	- Up to 48 libraries (1,260 uL) can be washed in a single tube
+  	- Up to 24 libraries (630 uL) can be washed in a single tube
 3. Place the tube on a magnet holder and incubate at room temperature until solution is clear
 4. Discard supernatant and replace with an equal volume of mRNA Bead Binding Buffer
 5. Remove tube from magnet and again resuspend the beads by pipetting
@@ -596,14 +626,15 @@ The purified, adapter-ligated library DNA may be stored at 4 °C for up to 1 wee
 ---
 ### Library Amplificiation
 
-1. Make the library amplification **master mix** on ice, _note, if samples are being multiplexed and have different primers, do not make a master mix. If you are multiplexing, you can use the PCR primers outlined in the Genomic Library Prep section_:
+1. Make the library amplification **master mix** on ice. _Use a single i5/i7 index primer pair (for example 501-701) for all RNA libraries if the cDNA probes will not be sequenced, and do not use that pair for the gDNA libraries. If the probes will be sequenced, give each library its own primer pair and do not make a master mix. The index primers are the PCR primers outlined in the Genomic Library Prep section_:
 
 |Component| Volume needed for 1 reaction (1/2 reactions from kit protocol), including 10% excess|
 |---------|--------------------|
 |2X KAPA HiFi HotStart ReadyMix|13.75 μl|
-|10X KAPA Library Amplication Primer Mix|2.75 μl|
+|i5 index primer (10 μM)|1.375 μl|
+|i7 index primer (10 μM)|1.375 μl|
 
-2. If multiplexing samples, add 2X KAPA HiFi HotStart ReadyMix and 10uM primers individually in volumes as stated in above table into new PCR tubes for each sample, and add 10μl of the cleaned ligated cDNA samples
+2. If adding primers individually, add 12.5 μl of 2X KAPA HiFi HotStart ReadyMix and 1.25 μl of each 10 μM index primer into new PCR tubes for each sample, and add 10μl of the cleaned ligated cDNA samples
 3. If using a master mix, combine 15μl of the library amplification master mix and 10μl of the cleaned ligated cDNA samples
 5. Mix well by pipetting up and down several times
 6. Amplify the library using the following thermal cycling protocol:
@@ -684,7 +715,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 |Strip tubes|General lab supplier|
 |DSN Kit|Evrogen, part # EA001 Sigma Aldrich, part # E7023|
 |Ethanol 200 proof (absolute) for molecular biology (500 ml)|AB, part # 4333764F|
-|10X KAPA Library Amplification Primer Mix (Universal primer mix)|Included in KAPA stranded mRNA kit|
+|i5_NoSeq_primer and i7_NoSeq_primer (10 μM each)|Custom oligos, see PCR Enrichment of DSN Normalized Library|
 |SPRI beads|KAPA Pure Beads, part #KK8000|
 |Nuclease-free water|General lab supplier|
 
@@ -733,7 +764,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
   * **Note**: It is important to keep the thermal cycler closed, except for the time necessary to add the 2X DSN buffer and mix. When preparing more than one reaction mix tube, keep the thermal cycler lid closed when extracting the 2X DSN buffer from its tube, then open the thermal cycler lid only for the time necessary to add and mix the 2X DSN buffer.
 14. Repeat steps 2 and 3 for each reaction mix tube
 15. Incubate the reaction mix tubes on the thermal cycler at 68°C for 10 minutes.
-16. Quickly add 2 μl of DSN enzyme to the first reaction mix tube using a 2 μl pipette
+16. Quickly add 2 μl of DSN enzyme (2 U/μl for 500 ng sample) to the first reaction mix tube using a 2 μl pipette
 17. With the reaction mix tube remaining within the thermal cycler, gently pipette the entire volume up and down 10 times to mix thoroughly using a pipette set to 40 μl
   * **Note**:Pipette the solution directly to the bottom of the PCR tube and do not let the sample get stuck on the side of the tube during the process
 18. Repeat steps 6 and 7 for each reaction mix tube
@@ -769,13 +800,21 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 
 ### PCR Enrichment of DSN Normalized Library
 
+This amplification uses the NoSeq primers. They prime inside the adapters, so the product has no P5 or P7 ends and cannot be sequenced. The restriction digest that removes the adapters from the probes does not run to 100% completion, and this keeps any undigested probes from being sequenced with the captures. Because of this, the enriched pool itself cannot be sequenced. If you want to sequence the probes, save a portion of the mRNA library before DSN normalization.
+
+|Primer|Sequence|
+|------|--------|
+|i5_NoSeq_primer|CACTCTTTCCCTACACGAC\*G|
+|i7_NoSeq_primer|GTGACTGGAGTTCAGACG\*T|
+
 1. Create the reaction mix by combining these components on ice _note, if more than 1 DSN normalization took place, you can do multiple enrichments, or you could have combined them before in the cleanup step above and adjusted the cleanup volume_:
 
 |Component|Volume|
 |---------|------|
-|DSN Treated Library | 30 μl|
+|DSN Treated Library | 20 μl|
 |2X KAPA HiFi HotStart ReadyMix| 25 μl|
-|10X KAPA Library Amplification Primer Mix| 5 μl|
+|i5_NoSeq_primer (10 μM)| 2.5 μl|
+|i7_NoSeq_primer (10 μM)| 2.5 μl|
 |**Total Volume per sample**| **50 μl**|
 
 2. Mix well by pipetting up and down several times
@@ -1475,6 +1514,13 @@ _Be careful and make sure to add each component in these steps!_
 
 ### Library re-amplification
 The amount of capture DNA will be really small, and needs to be amplified before QC.
+
+The universal primers are the Reamp primers below. They prime on the P5 and P7 ends, outside the indexes, so they amplify any completed library and keep its index sequences.
+
+|Primer|Sequence|
+|------|--------|
+|i5_Reamp_primer|AATGATACGGCGACCACCGA|
+|i7_Reamp_primer|CAAGCAGAAGACGGCATACGA|
 
 1. On ice, create the amplification master mix, multiply volumes by number of amplification reactions (same as number of captures):
 
